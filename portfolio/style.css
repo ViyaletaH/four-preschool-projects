@@ -56,9 +56,25 @@ a {
     color: #FFFFFF;
 }
 
-.li {
+.li1 {
     padding: 0px 30px 0px 30px;
     
+}
+
+.li2 {
+    padding: 0px 30px 0px 0px;
+}
+
+.li3 {
+    padding: 0px 30px 0px 0px;
+}
+
+.li4 {
+    padding: 0px 30px 0px 0px;
+}
+
+.li5 {
+        padding: 0px 30px 0px 0px;
 }
 .switch-lng {
     min-width: 70px;
@@ -89,6 +105,62 @@ a {
     max-height: 20px;
 }
 
+.hero {
+    min-width: 500px;
+    min-height: 330px;
+    max-width: 500px;
+    max-height: 330px;
+    margin: 160px 860px 330px 80px;
+    border: solid 1px crimson;
+}
+
+.hero-title {
+    min-width: 500px;
+    min-height: 120px;
+    max-width: 500px;
+    max-height: 120px;
+    border: solid 1px crimson;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+
+}
+
+h1 {
+    font-size: 100%;
+
+}
+
+.hero-text {
+    min-width: 470px;
+    min-height: 120px;
+    max-width: 470px;
+    max-height: 120px;
+    margin: 0px 30px 0px 0px;
+    border: solid 1px crimson;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px 0px 0px 0px;
+}
+
+.button {
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 55px;
+    max-height: 55px;
+    margin: 37px 280px 0px 0px; 
+    border: solid 1px crimson;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #bdae82;
+}
 .container-main {
     max-width: 1440px;
     padding: 0 20px;
