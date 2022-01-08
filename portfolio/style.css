@@ -1,0 +1,17 @@
+.container-header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.container-main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.container-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
