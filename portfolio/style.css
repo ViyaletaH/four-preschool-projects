@@ -1,17 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
 .container-header {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
-  }
+    border: solid 1px crimson;
+    background-color: #000000;
+    background: url(assets/img/bg.jpg);
+    min-width: 1440px;
+    min-height: 910px;
+    max-width: 1440px;
+    max-height: 910px;
+    left: 0px;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    max-width: 1440px;
+    max-height: 90px;
+    border: solid 1px crimson;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px 20px 20px;
+    border: solid 1px crimson;
+}
+
+.nav {
+    align-items: center;
+    min-width: 500px;
+    min-height: 50px;
+    max-width: 500px;
+    max-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border: solid 1px crimson;
+    list-style: none;
+    margin: 20px 0px 20px 780px; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;     
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+        
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.li {
+    padding: 0px 30px 0px 30px;
+    
+}
+.switch-lng {
+    min-width: 70px;
+    min-height: 50px;
+    border: solid 1px crimson;
+    margin: 20px 20px 20px 0px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: stretch;
+    align-content: center;
+    display: inline-flex;         
+}
+
+.lang {
+    padding: 12px 9px 15px 0px;
+    max-height: 20px;    
+}
+
+.slash {
+    padding: 12px 9px 15px 0px;
+    max-height: 20px;       
+}
+
+.lang2 {
+    padding: 12px 0px 15px 0px;
+    max-height: 20px;
+}
 
 .container-main {
     max-width: 1440px;
-    margin: 0 auto;
     padding: 0 20px;
+    margin: 0 auto;
+    border: solid 1px crimson;
+    background-color: #000000;
   }
 
 .container-footer {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
+    border: solid 1px crimson;
+    background-color: #000000;
   }
+
+.all {
+    background-color: #000000;
+    background-size: 100%;
+}
