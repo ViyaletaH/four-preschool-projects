@@ -74,8 +74,9 @@ a {
 }
 
 .li5 {
-        padding: 0px 30px 0px 0px;
+    padding: 0px 30px 0px 0px;
 }
+
 .switch-lng {
     min-width: 70px;
     min-height: 50px;
@@ -145,7 +146,7 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 2;
+    line-height: 40px;
     padding: 10px 0px 0px 0px;
 }
 
@@ -168,6 +169,305 @@ h1 {
     border: solid 1px crimson;
     background-color: #000000;
   }
+
+.skills-title {
+    background: url(assets/img/line.png);
+    min-width: 700px;
+    min-height: 80px;
+    max-width: 700px;
+    max-height: 80px;
+    border: solid 1px crimson;
+    margin: 100px 370px 60px 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-itself {
+    color: #bdae82;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000000;
+    border: solid 1px yellow;
+    min-width: 152px;
+    min-height: 80px;
+    max-width: 152px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    font-size: 100%;
+
+}
+
+.h2skills {
+    margin: 15px 20px 25px 20px;
+    border: solid 1px crimson;
+}
+
+.skills-items {
+    border: solid 1px crimson;
+    min-width: 1400px;
+    min-height: 242px;
+    max-width: 1400px;
+    max-height: 242px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+}
+
+.skills-photo {
+    border: solid 1px crimson;
+    min-width: 320px;
+    min-height: 240px;
+    max-width: 320px;
+    max-height: 240px;
+    margin: 1px 20px 1px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ph-icon {
+    border: solid 1px crimson;
+    min-width: 62px;
+    min-height: 50px;
+    max-width: 62px;
+    max-height: 50px;
+    margin: 0px 129px 0px 129px;
+}
+
+.ph-name {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 40px;
+    max-width: 280px;
+    max-height: 40px;
+    margin: 49px 20px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.ph-text {
+    
+    min-width: 280px;
+    min-height: 72px;
+    max-width: 280px;
+    max-height: 72px;
+    margin: 20px 20px 8px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.ph1 {
+    
+    max-height: 36px;
+    text-align:start;
+
+}
+
+.ph2 {
+    border: solid 1px crimson;
+    max-height: 36px;
+    text-align: center;
+
+}
+
+.skills-video {
+    border: solid 1px crimson;
+    min-width: 320px;
+    min-height: 240px;
+    max-width: 320px;
+    max-height: 240px;
+    margin: 1px 20px 1px 20px;
+}
+
+.vid-icon {
+    border: solid 1px crimson;
+    min-width: 60px;
+    min-height: 50px;
+    max-width: 60px;
+    max-height: 50px;
+    margin: 0px 130px 0px 130px;
+}
+
+.vid-name {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 40px;
+    max-width: 280px;
+    max-height: 40px;
+    margin: 49px 20px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.vid-text {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 72px;
+    max-width: 280px;
+    max-height: 72px;
+    margin: 20px 20px 8px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.skills-retouch {
+    border: solid 1px crimson;
+    min-width: 320px;
+    min-height: 240px;
+    max-width: 320px;
+    max-height: 240px;
+    margin: 1px 20px 1px 20px;
+}
+
+.ret-icon {
+    border: solid 1px crimson;
+    min-width: 66px;
+    min-height: 50px;
+    max-width: 66px;
+    max-height: 50px;
+    margin: 0px 127px 0px 127px;
+}
+
+.ret-name {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 40px;
+    max-width: 280px;
+    max-height: 40px;
+    margin: 49px 20px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.ret-text {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 72px;
+    max-width: 280px;
+    max-height: 72px;
+    margin: 20px 20px 8px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.skills-audio {
+    border: solid 1px crimson;
+    min-width: 320px;
+    min-height: 240px;
+    max-width: 320px;
+    max-height: 240px;
+    margin: 1px 0px 1px 20px;
+}
+
+.aud-icon {
+    border: solid 1px crimson;
+    min-width: 32px;
+    min-height: 50px;
+    max-width: 32px;
+    max-height: 50px;
+    margin: 0px 144px 0px 144px;
+}
+
+.aud-name {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 40px;
+    max-width: 280px;
+    max-height: 40px;
+    margin: 49px 20px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.aud-text {
+    border: solid 1px crimson;
+    min-width: 280px;
+    min-height: 72px;
+    max-width: 280px;
+    max-height: 72px;
+    margin: 20px 20px 8px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.portfolio-title {
+    background: url(assets/img/line.png);
+    min-width: 700px;
+    min-height: 80px;
+    max-width: 700px;
+    max-height: 80px;
+    border: solid 1px crimson;
+    margin: 100px 370px 60px 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.port-tit-itself {
+    color: #bdae82;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000000;
+    border: solid 1px yellow;
+    min-width: 220px;
+    min-height: 80px;
+    max-width: 220px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100%;
+
+}
+
+.h2portfolio {
+    margin: 15px 20px 25px 20px;
+    border: solid 1px crimson;
+}
 
 .container-footer {
     max-width: 1440px;
