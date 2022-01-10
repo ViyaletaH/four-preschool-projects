@@ -696,6 +696,232 @@ h2 {
   
 }
 
+.price-title {
+    border: solid 1px crimson;
+    min-width: 700px;
+    min-height: 80px;
+    max-width: 700px;
+    max-height: 80px;
+    margin: 100px 350px 60px 350px;
+    background: url(assets/img/line.png);
+    display: flex;
+    justify-content: center;
+}
+
+.pri-tit-itself {
+    color: #bdae82;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000000;
+    border: solid 1px yellow;
+    min-width: 142px;
+    min-height: 80px;
+    max-width: 142px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100%;
+
+}
+
+.h2price {
+    margin: 13px 18px 27px 22px;
+    border: solid 1px crimson;
+}
+
+.price-items {
+    border: solid 1px crimson;
+    min-width: 1400px;
+    min-height: 505px;
+    max-width: 1400px;
+    max-height: 505px;
+    margin: 0px 20px 100px 0px;
+    display: flex;
+}
+
+.standard {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 505px;
+    max-width: 450px;
+    max-height: 505px;
+    margin: 0px 25px 0px 0px;
+}
+
+.premium {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 505px;
+    max-width: 450px;
+    max-height: 505px;
+    margin: 0px 25px 0px 0px;
+}
+
+.gold {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 505px;
+    max-width: 450px;
+    max-height: 505px;
+}
+
+.st-title {
+    border: solid 1px crimson;
+    min-width: 128px;
+    min-height: 56px;
+    max-width: 128px;
+    max-height: 56px;
+    margin: 43px 161px 20px 161px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #FFFFFF;
+
+}
+
+.pr-title {
+    border: solid 1px crimson;
+    min-width: 132px;
+    min-height: 56px;
+    max-width: 132px;
+    max-height: 56px;
+    margin: 43px 159px 20px 159px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.go-title {
+    border: solid 1px crimson;
+    min-width: 67px;
+    min-height: 56px;
+    max-width: 67px;
+    max-height: 56px;
+    margin: 43px 191px 20px 192px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.st-price {
+    border: solid 1px crimson;
+    min-width: 69px;
+    min-height: 48px;
+    max-width: 69px;
+    max-height: 48px;
+    margin: 20px 191px 20px 190px;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #bdae82;
+    text-align: center;
+}
+
+.pr-price {
+    border: solid 1px crimson;
+    min-width: 68px;
+    min-height: 48px;
+    max-width: 68px;
+    max-height: 48px;
+    margin: 20px 191px 20px 191px;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #bdae82;
+    text-align: center;
+}
+
+.go-price {
+    border: solid 1px crimson;
+    min-width: 81px;
+    min-height: 48px;
+    max-width: 81px;
+    max-height: 48px;
+    margin: 20px 185px 20px 184px;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #bdae82;
+    text-align: center;
+}
+
+.st-text {
+    border: solid 1px crimson;
+    min-width: 364px;
+    min-height: 180px;
+    max-width: 364px;
+    max-height: 180px;
+    margin: 0px 42.67px 40px 43.33px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pr-text {
+    border: solid 1px crimson;
+    min-width: 364px;
+    min-height: 180px;
+    max-width: 364px;
+    max-height: 180px;
+    margin: 0px 43.02px 40px 42.98px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.go-text {
+    border: solid 1px crimson;
+    min-width: 364px;
+    min-height: 180px;
+    max-width: 364px;
+    max-height: 180px;
+    margin: 0px 43.36px 40px 42.64px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-buttons {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    margin: 0px 115px 43px 115px;
+    border: solid 2px #bdae82;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #bdae82;
+}
 .container-footer {
     max-width: 1440px;
     margin: 0 auto;
