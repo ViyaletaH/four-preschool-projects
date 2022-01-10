@@ -469,6 +469,213 @@ h2 {
     border: solid 1px crimson;
 }
 
+.portfolio-buttons {
+    border: solid 1px crimson;
+    min-width: 895px;
+    min-height: 55px;
+    max-width: 895px;
+    max-height: 55px;
+    margin: 62px 290px 60px 254px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-win {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    margin: 0px 5px 0px 0px;
+    border: solid 2px #bdae82;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    background-color: #000000;
+}
+
+.button-spr {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    margin: 0px 5px 0px 0px;
+    border: solid 2px #bdae82;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    background-color: #000000;
+}
+
+.button-sum {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    margin: 0px 5px 0px 0px;
+    border: solid 2px #bdae82;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    background-color: #000000;
+}
+
+.button-aut {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    margin: 0px 5px 0px 0px;
+    border: solid 2px #bdae82;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #bdae82;
+}
+
+.portfolio-items {
+    border: solid 1px crimson;
+    min-width: 1400px;
+    min-height: 1145px;
+    max-width: 1400px;
+    max-height: 1145px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    border: solid 1px crimson;
+    min-width: 1400px;
+    min-height: 560px;
+    max-width: 1400px;
+    max-height: 560px;
+    display: flex;
+    margin: 0px 0px 25px 0px;
+    
+}
+
+.container2 {
+    border: solid 1px crimson;
+    min-width: 1400px;
+    min-height: 560px;
+    max-width: 1400px;
+    max-height: 560px;
+    display: flex;
+}
+
+
+.portfolio-img1 {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 560px;     
+    max-width: 450px;
+    max-height: 560px;
+    margin: 0px 25px 0px 0px;
+    
+}
+
+.portfolio-img2 {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 560px;     
+    max-width: 450px;
+    max-height: 560px;
+    margin: 0px 25px 0px 0px;
+    
+}
+
+.portfolio-img3 {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 560px;   
+    max-width: 450px;
+    max-height: 560px;
+        
+}
+
+.portfolio-img4 {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 560px;   
+    max-width: 450px;
+    max-height: 560px;
+    margin: 0px 25px 0px 0px;
+}
+
+.portfolio-img5 {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 560px;    
+    max-width: 450px;
+    max-height: 560px;
+    margin: 0px 25px 0px 0px;
+    
+}
+
+.portfolio-img6 {
+    border: solid 1px crimson;
+    max-width: 450px;
+    max-height: 560px;
+    max-width: 450px;
+    max-height: 560px;
+    margin: 0px;
+}
+
+.video-title {
+    border: solid 1px crimson;
+    max-width: 700px;
+    max-height: 80px;
+    max-width: 700px;
+    max-height: 80px;
+    margin: 100px 350px 60px 350px;
+    background: url(assets/img/line.png);
+    display: flex;
+    justify-content: center;
+}
+
+.vid-tit-itself {
+    color: #bdae82;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000000;
+    border: solid 1px yellow;
+    min-width: 154px;
+    min-height: 80px;
+    max-width: 154px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100%;
+
+}
+
+.h2video {
+    margin: 13px 18px 27px 22px;
+    border: solid 1px crimson;
+}
+
+.video-player {
+    border: solid 1px crimson;
+    max-width: 700px;
+    max-height: 80px;
+    max-width: 700px;
+    max-height: 80px;
+    margin: 100px 350px 60px 350px;
+}
+
+
 .container-footer {
     max-width: 1440px;
     margin: 0 auto;
