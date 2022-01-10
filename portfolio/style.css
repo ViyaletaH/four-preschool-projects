@@ -668,13 +668,33 @@ h2 {
 
 .video-player {
     border: solid 1px crimson;
-    max-width: 700px;
-    max-height: 80px;
-    max-width: 700px;
-    max-height: 80px;
-    margin: 100px 350px 60px 350px;
+    min-width: 1400px;
+    min-height: 705px;
+    max-width: 1400px;
+    max-height: 705px;
+    margin: 0px 20px 100px 0px;
+    background: url(assets/img/video-player.jpg);
+    background-size: auto 705px;
+    display: flex;
 }
 
+.player-btn {
+    border: solid 1px crimson;
+    min-width: 129.86px;
+    min-height: 130px;
+    max-width: 129.86px;
+    max-height: 130px;
+    margin: 288px 634.14px 287px 636px;
+    display: flex;
+    background: url(assets/svg/Play_hover.svg);
+}
+
+.pl-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  
+}
 
 .container-footer {
     max-width: 1440px;
