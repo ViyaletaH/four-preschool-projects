@@ -696,6 +696,9 @@ h2 {
   background-color: transparent;
   border: none;
   outline: none;
+  width: 129.86px;
+  height: 130px;
+  cursor: pointer;
   
 }
 
@@ -953,6 +956,133 @@ h2 {
     min-height: 150px;
     max-width: 1440px;
     max-height: 150px;
+    display: flex;
+}
+
+.year-git {
+    border: solid 1px crimson;
+    min-width: 182px;
+    min-height: 50px;
+    max-width: 182px;
+    max-height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 50px 0px 50px 20px;
+    text-align: center;
+    display: flex;
+}
+
+.copyright {
+    border: solid 1px crimson;
+    min-width: 19px;
+    min-height: 50px;
+    max-width: 19px;
+    max-height: 50px;
+}
+
+.year {
+    border: solid 1px crimson;
+    min-width: 49px;
+    min-height: 50px;
+    max-width: 49px;
+    max-height: 50px;
+    margin: 0px 0px 0px 20px;
+}
+
+.git {
+    border: solid 1px crimson;
+    min-width: 61px;
+    min-height: 50px;
+    max-width: 61px;
+    max-height: 50px;
+    margin: 0px 13px 0px 20px;
+}
+
+.rolling {
+    border: solid 1px crimson;
+    min-width: 211px;
+    min-height: 50px;
+    max-width: 211px;
+    max-height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 50px 406px 50px 413px;
+    text-align: center;
+}
+
+.media {
+    border: solid 1px crimson;
+    min-width: 188px;
+    min-height: 50px;
+    max-width: 188px;
+    max-height: 50px;
+    margin: 50px 20px 50px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.media-list {
+    list-style: none;
+    display: flex;
+        
+}
+
+.inst {
+    border: solid 1px crimson;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    margin: 9px 20px 9px 0px;
+    background: url(assets/svg/inst\ 1.svg);
+}
+
+.fb {
+    border: solid 1px crimson;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    margin: 9px 20px 9px 0px;
+    background: url(assets/svg/fb\ 1.svg);
+}
+
+.twitter {
+    border: solid 1px crimson;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    margin: 9px 20px 9px 0px;
+    background: url(assets/svg/tw\ 1.svg);
+}
+
+.pinterest {
+    border: solid 1px crimson;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    margin: 9px 0px 9px 0px;
+    background: url(assets/svg/pinterest\ 1.svg);
+}
+
+.media-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
 }
 
 .all {
