@@ -955,7 +955,150 @@ h2 {
     min-height: 445px;
     max-width: 450px;
     max-height: 445px;
-    margin: 60px 20px 210px 970px
+    margin: 60px 20px 210px 970px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contacts-title {
+    border: solid 1px crimson;
+    min-width: 450px;
+    min-height: 80px;
+    max-width: 450px;
+    max-height: 80px; 
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    color: #bdae82;
+    
+}
+
+.cont-tit-itself {
+    display: flex;
+    
+}
+
+.contactsh2 {
+
+    margin: 0px 0px 6px 0px;
+    border: solid 1px crimson;
+}
+
+h2 {
+    font-size: 100%;
+
+}
+
+.email-block {
+    border: solid 2px #bdae82;
+    min-width: 450px;
+    min-height: 50px;
+    max-width: 450px;
+    max-height: 50px; 
+    margin: 40px 0px 20px 0px;
+    
+}
+
+#email {
+    min-width: 448px;
+    min-height: 48px;
+    max-width: 448px;
+    max-height: 48px; 
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 5px 0px 6px 18px;
+    border-style: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #bdae82;
+}
+
+.phone-block {
+    border: solid 2px #bdae82;
+    min-width: 450px;
+    min-height: 50px;
+    max-width: 450px;
+    max-height: 50px; 
+    margin: 0px 0px 20px 0px;
+}
+
+#phone {
+    min-width: 448px;
+    min-height: 48px;
+    max-width: 448px;
+    max-height: 48px; 
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 5px 0px 6px 18px;
+    border-style: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #bdae82;
+}
+
+.message-block {
+    border: solid 2px #bdae82;
+    min-width: 450px;
+    min-height: 100px;
+    max-width: 450px;
+    max-height: 100px; 
+    margin: 0px 0px 30px 0px;
+}
+
+#message {
+    min-width: 448px;
+    min-height: 98px;
+    max-width: 448px;
+    max-height: 98px; 
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 2px 0px 59px 18px;
+    border-style: none;
+    overflow: hidden;
+    resize: none;
+    color: #bdae82;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #bdae82;
+    
+}
+
+.contacts-button {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px; 
+}
+
+.cont-btn {
+    min-width: 220px;
+    min-height: 55px;
+    max-width: 220px;
+    max-height: 55px;
+    background: #bdae82;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 8px 40px 7px 40px;
 }
 
 .container-footer {
