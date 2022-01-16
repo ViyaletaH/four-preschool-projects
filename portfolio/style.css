@@ -63,8 +63,34 @@ a {
 .li1 {
     padding: 0px 30px 0px 30px;
     cursor: pointer;
-    
+        
 }
+
+a {
+    color: #FFFFFF;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:focus {
+    color: #bdae82;
+} 
+
+a:hover {
+    color: #bdae82; 
+}
+
+a:active {
+    color: #ddb333
+}
+
+
 
 .li2 {
     padding: 0px 30px 0px 0px;
@@ -172,6 +198,28 @@ h1 {
     background-color: #bdae82;
     cursor: pointer;
 }
+
+.button {
+    color: #000000;
+}
+
+.button:link {
+    color: #000000;
+}
+
+.button:focus {
+    color: #FFFFFF;
+    border: 2px solid #ddb333;
+} 
+
+.button:hover {
+    color: #FFFFFF; 
+}
+
+.button:active {
+    background-color: #ddb333
+}
+
 .container-main {
     max-width: 1440px;
     margin: 0 auto;
@@ -940,6 +988,27 @@ h2 {
     cursor: pointer;
 }
 
+.price-buttons {
+    color: #000000;
+}
+
+.price-buttons:link {
+    color: #000000;
+}
+
+.price-buttons:focus {
+    color: #FFFFFF;
+    border: 2px solid #ddb333;
+} 
+
+.price-buttons:hover {
+    color: #FFFFFF; 
+}
+
+.price-buttons:active {
+    background-color: #ddb333
+}
+
 .contacts {
     border: solid 1px crimson;
     min-width: 1440px;
@@ -1084,6 +1153,27 @@ textarea::-webkit-input-placeholder {
     min-height: 55px;
     max-width: 220px;
     max-height: 55px; 
+}
+
+.cont-btn {
+    color: #000000;
+}
+
+.cont-btn:link {
+    color: #000000;
+}
+
+.cont-btn:focus {
+    color: #FFFFFF;
+    border: 2px solid #ddb333;
+} 
+
+.cont-btn:hover {
+    color: #FFFFFF; 
+}
+
+.cont-btn:active {
+    background-color: #ddb333
 }
 
 .cont-btn {
