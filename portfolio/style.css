@@ -524,6 +524,28 @@ h2 {
     cursor: pointer;
 }
 
+.button-win {
+    color: #bdae82;
+}
+
+.button-win:link {
+    color: #bdae82;
+}
+
+.button-win:focus {
+    color: #000000;
+    background-color: #bdae82;
+} 
+
+.button-win:hover {
+    color: #FFFFFF; 
+}
+
+.button-win:active {
+    color: #ddb333;
+    background-color: #bdae82;
+}
+
 .button-spr {
     min-width: 220px;
     min-height: 55px;
@@ -538,6 +560,27 @@ h2 {
     color: #bdae82;
     background-color: #000000;
     cursor: pointer;
+}
+.button-spr {
+    color: #bdae82;
+}
+
+.button-spr:link {
+    color: #bdae82;
+}
+
+.button-spr:focus {
+    color: #000000;
+    background-color: #bdae82;
+} 
+
+.button-spr:hover {
+    color: #FFFFFF; 
+}
+
+.button-spr:active {
+    color: #ddb333;
+    background-color: #bdae82;
 }
 
 .button-sum {
@@ -556,6 +599,29 @@ h2 {
     cursor: pointer;
 }
 
+.button-sum {
+    color: #bdae82;
+}
+
+.button-sum:link {
+    color: #bdae82;
+}
+
+.button-sum:focus {
+    color: #000000;
+    background-color: #bdae82;
+} 
+
+.button-sum:hover {
+    color: #FFFFFF; 
+}
+
+.button-sum:active {
+    color: #ddb333;
+    background-color: #bdae82;
+}
+
+
 .button-aut {
     min-width: 220px;
     min-height: 55px;
@@ -570,6 +636,31 @@ h2 {
     color: #000000;
     background-color: #bdae82;
     cursor: pointer;
+}
+
+.button-aut {
+    color: #000000;
+    background-color: #bdae82;
+}
+
+.button-aut:link {
+    color: #000000;
+    background-color: #bdae82;
+}
+
+.button-aut:focus {
+    color: #000000;
+    background-color: #bdae82;
+} 
+
+.button-aut:hover {
+    color: #FFFFFF; 
+    background-color: #000000;
+}
+
+.button-aut:active {
+    color: #ddb333;
+    background-color: #000000;
 }
 
 .portfolio-items {
@@ -761,11 +852,12 @@ h2 {
     min-height: 505px;
     max-width: 1400px;
     max-height: 505px;
-    margin: 0px 20px 100px 20px;
+    margin: 0px 18px 100px 22px;
     display: flex;
 }
 
 .standard {
+    border: 2px solid #bdae82;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -774,6 +866,7 @@ h2 {
 }
 
 .premium {
+    border: 2px solid #bdae82;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -782,6 +875,7 @@ h2 {
 }
 
 .gold {
+    border: 2px solid #bdae82;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -793,7 +887,7 @@ h2 {
     min-height: 56px;
     max-width: 128px;
     max-height: 56px;
-    margin: 43px 161px 20px 161px;
+    margin: 41px 161px 22px 161px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
     font-weight: 700;
@@ -807,7 +901,7 @@ h2 {
     min-height: 56px;
     max-width: 132px;
     max-height: 56px;
-    margin: 43px 159px 20px 159px;
+    margin: 41px 159px 22px 159px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
     font-weight: 700;
@@ -820,7 +914,7 @@ h2 {
     min-height: 56px;
     max-width: 67px;
     max-height: 56px;
-    margin: 43px 191px 20px 192px;
+    margin: 41px 191px 22px 192px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
     font-weight: 700;
@@ -833,7 +927,7 @@ h2 {
     min-height: 48px;
     max-width: 69px;
     max-height: 48px;
-    margin: 20px 191px 20px 190px;
+    margin: 20px 191px 18px 190px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     font-weight: 700;
@@ -847,7 +941,7 @@ h2 {
     min-height: 48px;
     max-width: 68px;
     max-height: 48px;
-    margin: 20px 191px 20px 191px;
+    margin: 20px 191px 18px 191px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     font-weight: 700;
@@ -861,7 +955,7 @@ h2 {
     min-height: 48px;
     max-width: 81px;
     max-height: 48px;
-    margin: 20px 185px 20px 184px;
+    margin: 20px 185px 18px 184px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     font-weight: 700;
@@ -875,7 +969,7 @@ h2 {
     min-height: 180px;
     max-width: 364px;
     max-height: 180px;
-    margin: 0px 42.67px 40px 43.33px;
+    margin: 0px 42.67px 42px 43.33px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -891,7 +985,7 @@ h2 {
     min-height: 180px;
     max-width: 364px;
     max-height: 180px;
-    margin: 0px 43.02px 40px 42.98px;
+    margin: 0px 43.02px 42px 42.98px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -907,7 +1001,7 @@ h2 {
     min-height: 180px;
     max-width: 364px;
     max-height: 180px;
-    margin: 0px 43.36px 40px 42.64px;
+    margin: 0px 43.36px 42px 42.64px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -923,7 +1017,7 @@ h2 {
     min-height: 55px;
     max-width: 220px;
     max-height: 55px;
-    margin: 0px 113px 43px 117px;
+    margin: 0px 115px 45px 115px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
     line-height: 40px;
