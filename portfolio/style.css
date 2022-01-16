@@ -1196,7 +1196,8 @@ textarea::-webkit-input-placeholder {
     max-width: 32px;
     max-height: 32px;
     margin: 9px 20px 9px 0px;
-    background: url(assets/svg/inst\ 1.svg);
+    cursor: pointer;
+    
 }
 
 .fb {
@@ -1206,7 +1207,8 @@ textarea::-webkit-input-placeholder {
     max-width: 32px;
     max-height: 32px;
     margin: 9px 20px 9px 0px;
-    background: url(assets/svg/fb\ 1.svg);
+    cursor: pointer;
+    
 }
 
 .twitter {
@@ -1216,7 +1218,8 @@ textarea::-webkit-input-placeholder {
     max-width: 32px;
     max-height: 32px;
     margin: 9px 20px 9px 0px;
-    background: url(assets/svg/tw\ 1.svg);
+    cursor: pointer;
+   
 }
 
 .pinterest {
@@ -1226,17 +1229,8 @@ textarea::-webkit-input-placeholder {
     max-width: 32px;
     max-height: 32px;
     margin: 9px 0px 9px 0px;
-    background: url(assets/svg/pinterest\ 1.svg);
-}
-
-.media-btn {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    width: 32px;
-    height: 32px;
     cursor: pointer;
-  
+    
 }
 
 .all {
