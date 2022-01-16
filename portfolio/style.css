@@ -8,7 +8,6 @@ html {
 .container-header {
     max-width: 1440px;
     margin: 0 auto;
-    border: solid 1px crimson;
     background-color: #000000;
     background: url(assets/img/bg.jpg);
     min-width: 1440px;
@@ -23,14 +22,14 @@ html {
     display: flex;
     max-width: 1440px;
     max-height: 90px;
-    border: solid 1px crimson;
+    
 }
 
 .logo {
     width: 50px;
     height: 50px;
-    margin: 20px 0px 20px 20px;
-    border: solid 1px crimson;
+    margin: 25px 0px 15px 20px;
+    
 }
 
 .nav {
@@ -41,9 +40,8 @@ html {
     max-height: 50px;
     display: flex;
     justify-content: flex-end;
-    border: solid 1px crimson;
     list-style: none;
-    margin: 20px 0px 20px 780px; 
+    margin: 25px 0px 15px 780px; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;     
@@ -115,8 +113,7 @@ a:active {
 .switch-lng {
     min-width: 70px;
     min-height: 50px;
-    border: solid 1px crimson;
-    margin: 20px 20px 20px 0px;
+    margin: 25px 17px 15px 3px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -147,7 +144,6 @@ a:active {
     max-width: 500px;
     max-height: 330px;
     margin: 160px 860px 330px 80px;
-    border: solid 1px crimson;
 }
 
 .hero-title {
@@ -155,13 +151,13 @@ a:active {
     min-height: 120px;
     max-width: 500px;
     max-height: 120px;
-    border: solid 1px crimson;
     font-weight: 700;
     color: #FFFFFF;
     font-family: 'Merriweather', serif;
     font-size: 60px;
     align-items: center;
     display: flex;
+    padding: 5px 0px 0px 2px;
 
 }
 
@@ -175,8 +171,7 @@ h1 {
     min-height: 120px;
     max-width: 470px;
     max-height: 120px;
-    margin: 0px 30px 0px 0px;
-    border: solid 1px crimson;
+    margin: 5px 28px 0px 2px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -190,8 +185,7 @@ h1 {
     max-width: 220px;
     min-height: 55px;
     max-height: 55px;
-    margin: 37px 280px 0px 0px; 
-    border: solid 1px crimson;
+    margin: 35px 278px 2px 2px; 
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: #000000;
@@ -223,9 +217,9 @@ h1 {
 .container-main {
     max-width: 1440px;
     margin: 0 auto;
-    border: solid 1px crimson;
+    
     background-color: #000000;
-  }
+}
 
 .skills-title {
     background: url(assets/img/line.png);
@@ -233,8 +227,7 @@ h1 {
     min-height: 80px;
     max-width: 700px;
     max-height: 80px;
-    border: solid 1px crimson;
-    margin: 100px 370px 60px 370px;
+    margin: 102px 368px 58px 372px;
     display: flex;
     justify-content: center;
 }
@@ -245,7 +238,6 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    border: solid 1px yellow;
     min-width: 152px;
     min-height: 80px;
     max-width: 152px;
@@ -262,21 +254,20 @@ h2 {
 
 .h2skills {
     margin: 15px 20px 25px 20px;
-    border: solid 1px crimson;
+    
 }
 
 .skills-items {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 242px;
     max-width: 1400px;
     max-height: 242px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 18px 0px 22px;
     display: flex;
+    padding: 2px 0px 0px 0px;
 }
 
 .skills-photo {
-    border: solid 1px crimson;
     min-width: 320px;
     min-height: 240px;
     max-width: 320px;
@@ -287,7 +278,6 @@ h2 {
 }
 
 .ph-icon {
-    border: solid 1px crimson;
     min-width: 62px;
     min-height: 50px;
     max-width: 62px;
@@ -296,7 +286,6 @@ h2 {
 }
 
 .ph-name {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 40px;
     max-width: 280px;
@@ -313,7 +302,6 @@ h2 {
 }
 
 .ph-text {
-    
     min-width: 280px;
     min-height: 72px;
     max-width: 280px;
@@ -336,14 +324,12 @@ h2 {
 }
 
 .ph2 {
-    border: solid 1px crimson;
     max-height: 36px;
     text-align: center;
 
 }
 
 .skills-video {
-    border: solid 1px crimson;
     min-width: 320px;
     min-height: 240px;
     max-width: 320px;
@@ -352,7 +338,6 @@ h2 {
 }
 
 .vid-icon {
-    border: solid 1px crimson;
     min-width: 60px;
     min-height: 50px;
     max-width: 60px;
@@ -361,7 +346,6 @@ h2 {
 }
 
 .vid-name {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 40px;
     max-width: 280px;
@@ -377,7 +361,6 @@ h2 {
 }
 
 .vid-text {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 72px;
     max-width: 280px;
@@ -392,7 +375,6 @@ h2 {
 }
 
 .skills-retouch {
-    border: solid 1px crimson;
     min-width: 320px;
     min-height: 240px;
     max-width: 320px;
@@ -401,7 +383,6 @@ h2 {
 }
 
 .ret-icon {
-    border: solid 1px crimson;
     min-width: 66px;
     min-height: 50px;
     max-width: 66px;
@@ -410,7 +391,6 @@ h2 {
 }
 
 .ret-name {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 40px;
     max-width: 280px;
@@ -426,7 +406,6 @@ h2 {
 }
 
 .ret-text {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 72px;
     max-width: 280px;
@@ -441,7 +420,6 @@ h2 {
 }
 
 .skills-audio {
-    border: solid 1px crimson;
     min-width: 320px;
     min-height: 240px;
     max-width: 320px;
@@ -450,7 +428,6 @@ h2 {
 }
 
 .aud-icon {
-    border: solid 1px crimson;
     min-width: 32px;
     min-height: 50px;
     max-width: 32px;
@@ -459,7 +436,6 @@ h2 {
 }
 
 .aud-name {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 40px;
     max-width: 280px;
@@ -475,7 +451,6 @@ h2 {
 }
 
 .aud-text {
-    border: solid 1px crimson;
     min-width: 280px;
     min-height: 72px;
     max-width: 280px;
@@ -495,8 +470,7 @@ h2 {
     min-height: 80px;
     max-width: 700px;
     max-height: 80px;
-    border: solid 1px crimson;
-    margin: 100px 370px 60px 370px;
+    margin: 102px 368px 58px 372px;
     display: flex;
     justify-content: center;
 }
@@ -507,7 +481,6 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    border: solid 1px yellow;
     min-width: 220px;
     min-height: 80px;
     max-width: 220px;
@@ -523,11 +496,9 @@ h2 {
 
 .h2portfolio {
     margin: 15px 20px 25px 20px;
-    border: solid 1px crimson;
 }
 
 .portfolio-buttons {
-    border: solid 1px crimson;
     min-width: 895px;
     min-height: 55px;
     max-width: 895px;
@@ -602,7 +573,6 @@ h2 {
 }
 
 .portfolio-items {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 1145px;
     max-width: 1400px;
@@ -613,28 +583,27 @@ h2 {
 }
 
 .container1 {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 560px;
     max-width: 1400px;
     max-height: 560px;
     display: flex;
     margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 2px;
     
 }
 
 .container2 {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 560px;
     max-width: 1400px;
     max-height: 560px;
     display: flex;
+    padding: 0px 0px 0px 2px;
 }
 
 
 .portfolio-img1 {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 560px;     
     max-width: 450px;
@@ -644,7 +613,6 @@ h2 {
 }
 
 .portfolio-img2 {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 560px;     
     max-width: 450px;
@@ -654,7 +622,6 @@ h2 {
 }
 
 .portfolio-img3 {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 560px;   
     max-width: 450px;
@@ -663,7 +630,6 @@ h2 {
 }
 
 .portfolio-img4 {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 560px;   
     max-width: 450px;
@@ -672,7 +638,6 @@ h2 {
 }
 
 .portfolio-img5 {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 560px;    
     max-width: 450px;
@@ -682,7 +647,6 @@ h2 {
 }
 
 .portfolio-img6 {
-    border: solid 1px crimson;
     max-width: 450px;
     max-height: 560px;
     max-width: 450px;
@@ -691,7 +655,6 @@ h2 {
 }
 
 .video-title {
-    border: solid 1px crimson;
     max-width: 700px;
     max-height: 80px;
     max-width: 700px;
@@ -708,7 +671,6 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    border: solid 1px yellow;
     min-width: 154px;
     min-height: 80px;
     max-width: 154px;
@@ -723,24 +685,22 @@ h2 {
 }
 
 .h2video {
-    margin: 13px 18px 27px 22px;
-    border: solid 1px crimson;
+    margin: 15px 18px 25px 22px;
 }
 
 .video-player {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 705px;
     max-width: 1400px;
     max-height: 705px;
-    margin: 0px 20px 100px 20px;
+    margin: 0px 18px 100px 22px;
     background: url(assets/img/video-player.jpg);
     background-size: auto 705px;
     display: flex;
+    
 }
 
 .player-btn {
-    border: solid 1px crimson;
     min-width: 129.86px;
     min-height: 130px;
     max-width: 129.86px;
@@ -757,11 +717,11 @@ h2 {
   width: 129.86px;
   height: 130px;
   cursor: pointer;
+  padding: 0px 0px 0px 2px;
   
 }
 
 .price-title {
-    border: solid 1px crimson;
     min-width: 700px;
     min-height: 80px;
     max-width: 700px;
@@ -778,7 +738,6 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    border: solid 1px yellow;
     min-width: 142px;
     min-height: 80px;
     max-width: 142px;
@@ -794,11 +753,10 @@ h2 {
 
 .h2price {
     margin: 13px 18px 27px 22px;
-    border: solid 1px crimson;
+    
 }
 
 .price-items {
-    border: solid 1px crimson;
     min-width: 1400px;
     min-height: 505px;
     max-width: 1400px;
@@ -808,7 +766,6 @@ h2 {
 }
 
 .standard {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -817,7 +774,6 @@ h2 {
 }
 
 .premium {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -826,7 +782,6 @@ h2 {
 }
 
 .gold {
-    border: solid 1px crimson;
     min-width: 450px;
     min-height: 505px;
     max-width: 450px;
@@ -834,7 +789,6 @@ h2 {
 }
 
 .st-title {
-    border: solid 1px crimson;
     min-width: 128px;
     min-height: 56px;
     max-width: 128px;
@@ -849,7 +803,6 @@ h2 {
 }
 
 .pr-title {
-    border: solid 1px crimson;
     min-width: 132px;
     min-height: 56px;
     max-width: 132px;
@@ -863,7 +816,6 @@ h2 {
 }
 
 .go-title {
-    border: solid 1px crimson;
     min-width: 67px;
     min-height: 56px;
     max-width: 67px;
@@ -877,7 +829,6 @@ h2 {
 }
 
 .st-price {
-    border: solid 1px crimson;
     min-width: 69px;
     min-height: 48px;
     max-width: 69px;
@@ -892,7 +843,6 @@ h2 {
 }
 
 .pr-price {
-    border: solid 1px crimson;
     min-width: 68px;
     min-height: 48px;
     max-width: 68px;
@@ -907,7 +857,6 @@ h2 {
 }
 
 .go-price {
-    border: solid 1px crimson;
     min-width: 81px;
     min-height: 48px;
     max-width: 81px;
@@ -922,7 +871,6 @@ h2 {
 }
 
 .st-text {
-    border: solid 1px crimson;
     min-width: 364px;
     min-height: 180px;
     max-width: 364px;
@@ -939,7 +887,6 @@ h2 {
 }
 
 .pr-text {
-    border: solid 1px crimson;
     min-width: 364px;
     min-height: 180px;
     max-width: 364px;
@@ -956,7 +903,6 @@ h2 {
 }
 
 .go-text {
-    border: solid 1px crimson;
     min-width: 364px;
     min-height: 180px;
     max-width: 364px;
@@ -977,7 +923,7 @@ h2 {
     min-height: 55px;
     max-width: 220px;
     max-height: 55px;
-    margin: 0px 115px 43px 115px;
+    margin: 0px 113px 43px 117px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
     line-height: 40px;
@@ -1010,7 +956,7 @@ h2 {
 }
 
 .contacts {
-    border: solid 1px crimson;
+    border: 1px solid transparent;
     min-width: 1440px;
     min-height: 700px;
     max-width: 1440px;
@@ -1019,7 +965,7 @@ h2 {
 }
 
 .contacts-container {
-    border: solid 1px crimson;
+    
     min-width: 450px;
     min-height: 445px;
     max-width: 450px;
@@ -1031,7 +977,7 @@ h2 {
 }
 
 .contacts-title {
-    border: solid 1px crimson;
+    
     min-width: 450px;
     min-height: 80px;
     max-width: 450px;
@@ -1054,7 +1000,7 @@ h2 {
 .contactsh2 {
 
     margin: 0px 0px 6px 0px;
-    border: solid 1px crimson;
+    
 }
 
 h2 {
@@ -1194,7 +1140,6 @@ textarea::-webkit-input-placeholder {
 .container-footer {
     max-width: 1440px;
     margin: 0 auto;
-    border: solid 1px crimson;
     background-color: #000000;
     min-width: 1440px;
     min-height: 150px;
@@ -1204,7 +1149,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .year-git {
-    border: solid 1px crimson;
     min-width: 182px;
     min-height: 50px;
     max-width: 182px;
@@ -1220,7 +1164,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .copyright {
-    border: solid 1px crimson;
     min-width: 19px;
     min-height: 50px;
     max-width: 19px;
@@ -1228,7 +1171,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .year {
-    border: solid 1px crimson;
     min-width: 49px;
     min-height: 50px;
     max-width: 49px;
@@ -1237,7 +1179,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .git {
-    border: solid 1px crimson;
     min-width: 61px;
     min-height: 50px;
     max-width: 61px;
@@ -1246,7 +1187,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .rolling {
-    border: solid 1px crimson;
     min-width: 211px;
     min-height: 50px;
     max-width: 211px;
@@ -1261,7 +1201,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .media {
-    border: solid 1px crimson;
     min-width: 188px;
     min-height: 50px;
     max-width: 188px;
@@ -1280,7 +1219,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .inst {
-    border: solid 1px crimson;
     min-width: 32px;
     min-height: 32px;
     max-width: 32px;
@@ -1291,7 +1229,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .fb {
-    border: solid 1px crimson;
     min-width: 32px;
     min-height: 32px;
     max-width: 32px;
@@ -1302,7 +1239,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .twitter {
-    border: solid 1px crimson;
     min-width: 32px;
     min-height: 32px;
     max-width: 32px;
@@ -1313,7 +1249,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .pinterest {
-    border: solid 1px crimson;
     min-width: 32px;
     min-height: 32px;
     max-width: 32px;
