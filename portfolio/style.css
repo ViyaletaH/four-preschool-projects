@@ -1226,9 +1226,8 @@ textarea::-webkit-input-placeholder {
     color: #000000;
     font-weight: 400;
     font-size: 20px;
-    line-height: 40px;
     cursor: pointer;
-    padding: 8px 40px 7px 40px;
+    text-align: center;
 }
 
 .container-footer {
