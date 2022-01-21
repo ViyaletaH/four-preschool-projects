@@ -61,6 +61,7 @@ a {
 .li1 {
     padding: 0px 30px 0px 30px;
     cursor: pointer;
+    
         
 }
 
@@ -82,10 +83,12 @@ a:focus {
 
 a:hover {
     color: #bdae82; 
+    transition: 1s;
 }
 
 a:active {
-    color: #ddb333
+    color: #ddb333;
+    transition: 1s;
 }
 
 
@@ -204,15 +207,18 @@ h1 {
 
 .button:focus {
     color: #FFFFFF;
+    transition: 1s;
     
 } 
 
 .button:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .button:active {
-    background-color: #ddb333
+    background-color: #ddb333;
+    transition: 1s;
 }
 
 .container-main {
@@ -536,15 +542,18 @@ h2 {
 .button-win:focus {
     color: #000000;
     background-color: #bdae82;
+    transition: 1s;
 } 
 
 .button-win:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .button-win:active {
     color: #ddb333;
     background-color: #bdae82;
+    transition: 1s;
 }
 
 .button-spr {
@@ -573,15 +582,18 @@ h2 {
 .button-spr:focus {
     color: #000000;
     background-color: #bdae82;
+    transition: 1s;
 } 
 
 .button-spr:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .button-spr:active {
     color: #ddb333;
     background-color: #bdae82;
+    transition: 1s;
 }
 
 .button-sum {
@@ -611,15 +623,18 @@ h2 {
 .button-sum:focus {
     color: #000000;
     background-color: #bdae82;
+    transition: 1s;
 } 
 
 .button-sum:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .button-sum:active {
     color: #ddb333;
     background-color: #bdae82;
+    transition: 1s;
 }
 
 
@@ -652,16 +667,21 @@ h2 {
 .button-aut:focus {
     color: #000000;
     background-color: #bdae82;
+    transition: 1s;
+    
 } 
 
 .button-aut:hover {
     color: #FFFFFF; 
     background-color: #000000;
+    transition: 1s;
+    
 }
 
 .button-aut:active {
     color: #ddb333;
     background-color: #000000;
+    
 }
 
 .portfolio-items {
@@ -1039,14 +1059,17 @@ h2 {
 
 .price-buttons:focus {
     color: #FFFFFF;
+    transition: 1s;
 } 
 
 .price-buttons:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .price-buttons:active {
-    background-color: #ddb333
+    background-color: #ddb333;
+    transition: 1s;
 }
 
 .contacts {
@@ -1210,15 +1233,18 @@ textarea::-webkit-input-placeholder {
 
 .cont-btn:focus {
     color: #FFFFFF;
+    transition: 1s;
     
 } 
 
 .cont-btn:hover {
     color: #FFFFFF; 
+    transition: 1s;
 }
 
 .cont-btn:active {
-    background-color: #ddb333
+    background-color: #ddb333;
+    transition: 1s;
 }
 
 .cont-btn {
