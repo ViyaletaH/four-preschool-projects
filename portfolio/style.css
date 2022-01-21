@@ -29,9 +29,15 @@ html {
     width: 50px;
     height: 50px;
     margin: 25px 0px 15px 20px;
+    transition: 1s;
     
 }
 
+.logo:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+    cursor: pointer;
+
+}
 .nav {
     align-items: center;
     min-width: 500px;
@@ -820,8 +826,12 @@ h2 {
     margin: 288px 634.14px 287px 636px;
     display: flex;
     background: url(assets/svg/Play_hover.svg);
+    transition: 1s;
 }
 
+.player-btn:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+}
 .pl-btn {
   background-color: transparent;
   border: none;
@@ -830,7 +840,7 @@ h2 {
   height: 130px;
   cursor: pointer;
   padding: 0px 0px 0px 2px;
-  
+   
 }
 
 .price-title {
@@ -1350,9 +1360,12 @@ textarea::-webkit-input-placeholder {
     max-height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
+    transition: 1s;
     
 }
-
+.inst:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+}
 .fb {
     min-width: 32px;
     min-height: 32px;
@@ -1360,9 +1373,12 @@ textarea::-webkit-input-placeholder {
     max-height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
-    
+    transition: 1s;
 }
 
+.fb:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+}
 .twitter {
     min-width: 32px;
     min-height: 32px;
@@ -1370,7 +1386,11 @@ textarea::-webkit-input-placeholder {
     max-height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
-   
+   transition: 1s;
+}
+
+.twitter:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
 }
 
 .pinterest {
@@ -1380,7 +1400,11 @@ textarea::-webkit-input-placeholder {
     max-height: 32px;
     margin: 9px 0px 9px 0px;
     cursor: pointer;
-    
+    transition: 1s;
+}
+
+.pinterest:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
 }
 
 .all {
