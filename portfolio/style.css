@@ -18,7 +18,7 @@ html {
     top: 0px;
 }
 
-.header {
+.header-nav {
     display: flex;
     max-width: 1440px;
     max-height: 90px;
@@ -1410,4 +1410,63 @@ textarea::-webkit-input-placeholder {
 .all {
     background-color: #000000;
     background-size: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .all {
+        max-width: 768px;
+    } 
+    header {
+        block-size: 590px;
+       
+    }
+    .container-header {
+        max-height: 590px;
+        max-width: 768px;
+        background-position: -10px -37px;
+        background-size: auto 620px;
+        margin: 0px; 
+    }
+    .header-nav {
+        max-height: 90px;
+        max-width: 768px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .switch-lng {
+        max-width: 82px;
+        max-height: 50px;
+
+    }
+    
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        max-height: 50px;
+        max-width: 50px;
+        margin: 20px 64px 20px 0px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .line {
+        height: 2px;
+        width: 50px;
+        background-color: #FFFFFF;
+        
+    }
+    #hero {
+        max-width: 768px;
+        max-height: 270px;
+    }
+    
 }
