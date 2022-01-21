@@ -191,6 +191,7 @@ h1 {
     color: #000000;
     background-color: #bdae82;
     cursor: pointer;
+    border: none;
 }
 
 .button {
@@ -203,7 +204,7 @@ h1 {
 
 .button:focus {
     color: #FFFFFF;
-    border: 2px solid #ddb333;
+    
 } 
 
 .button:hover {
@@ -1038,7 +1039,6 @@ h2 {
 
 .price-buttons:focus {
     color: #FFFFFF;
-    border: 2px solid #ddb333;
 } 
 
 .price-buttons:hover {
@@ -1210,7 +1210,7 @@ textarea::-webkit-input-placeholder {
 
 .cont-btn:focus {
     color: #FFFFFF;
-    border: 2px solid #ddb333;
+    
 } 
 
 .cont-btn:hover {
