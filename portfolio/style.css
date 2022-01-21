@@ -10,10 +10,8 @@ html {
     margin: 0 auto;
     background-color: #000000;
     background: url(assets/img/bg.jpg);
-    min-width: 1440px;
-    min-height: 910px;
-    max-width: 1440px;
-    max-height: 910px;
+    width: 1440px;
+    height: 910px;
     left: 0px;
     top: 0px;
 }
@@ -40,10 +38,8 @@ html {
 }
 .nav {
     align-items: center;
-    min-width: 500px;
-    min-height: 50px;
-    max-width: 500px;
-    max-height: 50px;
+    width: 500px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -120,8 +116,8 @@ a:active {
 }
 
 .switch-lng {
-    min-width: 70px;
-    min-height: 50px;
+    width: 70px;
+    height: 50px;
     margin: 25px 17px 15px 3px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
@@ -148,18 +144,14 @@ a:active {
 }
 
 .hero {
-    min-width: 500px;
-    min-height: 330px;
-    max-width: 500px;
-    max-height: 330px;
+    width: 500px;
+    height: 330px;
     margin: 160px 860px 330px 80px;
 }
 
 .hero-title {
-    min-width: 500px;
-    min-height: 120px;
-    max-width: 500px;
-    max-height: 120px;
+    width: 500px;
+    height: 120px;
     font-weight: 700;
     color: #FFFFFF;
     font-family: 'Merriweather', serif;
@@ -176,10 +168,8 @@ h1 {
 }
 
 .hero-text {
-    min-width: 470px;
-    min-height: 120px;
-    max-width: 470px;
-    max-height: 120px;
+    width: 470px;
+    height: 120px;
     margin: 5px 28px 0px 2px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
@@ -190,10 +180,8 @@ h1 {
 }
 
 .button {
-    min-width: 220px;
-    max-width: 220px;
-    min-height: 55px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 35px 278px 2px 2px; 
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -228,7 +216,7 @@ h1 {
 }
 
 .container-main {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     
     background-color: #000000;
@@ -236,10 +224,8 @@ h1 {
 
 .skills-title {
     background: url(assets/img/line.png);
-    min-width: 700px;
-    min-height: 80px;
-    max-width: 700px;
-    max-height: 80px;
+    width: 700px;
+    height: 80px;
     margin: 102px 368px 58px 372px;
     display: flex;
     justify-content: center;
@@ -251,8 +237,6 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    min-width: 152px;
-    min-height: 80px;
     max-width: 152px;
     max-height: 80px;
     display: flex;
@@ -271,38 +255,30 @@ h2 {
 }
 
 .skills-items {
-    min-width: 1400px;
-    min-height: 242px;
-    max-width: 1400px;
-    max-height: 242px;
+    width: 1400px;
+    height: 242px;
     margin: 0px 18px 0px 22px;
     display: flex;
     padding: 2px 0px 0px 0px;
 }
 
 .skills-photo {
-    min-width: 320px;
-    min-height: 240px;
-    max-width: 320px;
-    max-height: 240px;
+    width: 320px;
+    height: 240px;
     margin: 1px 20px 1px 0px;
     display: flex;
     flex-direction: column;
 }
 
 .ph-icon {
-    min-width: 62px;
-    min-height: 50px;
-    max-width: 62px;
-    max-height: 50px;
+    width: 62px;
+    height: 50px;
     margin: 0px 129px 0px 129px;
 }
 
 .ph-name {
-    min-width: 280px;
-    min-height: 40px;
-    max-width: 280px;
-    max-height: 40px;
+    width: 280px;
+    height: 40px;
     margin: 49px 20px 0px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -315,10 +291,8 @@ h2 {
 }
 
 .ph-text {
-    min-width: 280px;
-    min-height: 72px;
-    max-width: 280px;
-    max-height: 72px;
+    width: 280px;
+    height: 72px;
     margin: 20px 20px 8px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -331,38 +305,32 @@ h2 {
 
 .ph1 {
     
-    max-height: 36px;
+    height: 36px;
     text-align:start;
 
 }
 
 .ph2 {
-    max-height: 36px;
+    height: 36px;
     text-align: center;
 
 }
 
 .skills-video {
-    min-width: 320px;
-    min-height: 240px;
-    max-width: 320px;
-    max-height: 240px;
+    width: 320px;
+    height: 240px;
     margin: 1px 20px 1px 20px;
 }
 
 .vid-icon {
-    min-width: 60px;
-    min-height: 50px;
-    max-width: 60px;
-    max-height: 50px;
+    width: 60px;
+    height: 50px;
     margin: 0px 130px 0px 130px;
 }
 
 .vid-name {
-    min-width: 280px;
-    min-height: 40px;
-    max-width: 280px;
-    max-height: 40px;
+    width: 280px;
+    height: 40px;
     margin: 49px 20px 0px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -374,10 +342,8 @@ h2 {
 }
 
 .vid-text {
-    min-width: 280px;
-    min-height: 72px;
-    max-width: 280px;
-    max-height: 72px;
+    width: 280px;
+    height: 72px;
     margin: 20px 20px 8px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -388,26 +354,20 @@ h2 {
 }
 
 .skills-retouch {
-    min-width: 320px;
-    min-height: 240px;
-    max-width: 320px;
-    max-height: 240px;
+    width: 320px;
+    height: 240px;
     margin: 1px 20px 1px 20px;
 }
 
 .ret-icon {
-    min-width: 66px;
-    min-height: 50px;
-    max-width: 66px;
-    max-height: 50px;
+    width: 66px;
+    height: 50px;
     margin: 0px 127px 0px 127px;
 }
 
 .ret-name {
-    min-width: 280px;
-    min-height: 40px;
-    max-width: 280px;
-    max-height: 40px;
+    width: 280px;
+    height: 40px;
     margin: 49px 20px 0px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -419,10 +379,8 @@ h2 {
 }
 
 .ret-text {
-    min-width: 280px;
-    min-height: 72px;
-    max-width: 280px;
-    max-height: 72px;
+    width: 280px;
+    height: 72px;
     margin: 20px 20px 8px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -433,26 +391,20 @@ h2 {
 }
 
 .skills-audio {
-    min-width: 320px;
-    min-height: 240px;
-    max-width: 320px;
-    max-height: 240px;
+    width: 320px;
+    height: 240px;
     margin: 1px 0px 1px 20px;
 }
 
 .aud-icon {
-    min-width: 32px;
-    min-height: 50px;
-    max-width: 32px;
-    max-height: 50px;
+    width: 32px;
+    height: 50px;
     margin: 0px 144px 0px 144px;
 }
 
 .aud-name {
-    min-width: 280px;
-    min-height: 40px;
-    max-width: 280px;
-    max-height: 40px;
+    width: 280px;
+    height: 40px;
     margin: 49px 20px 0px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -464,10 +416,8 @@ h2 {
 }
 
 .aud-text {
-    min-width: 280px;
-    min-height: 72px;
-    max-width: 280px;
-    max-height: 72px;
+    width: 280px;
+    height: 72px;
     margin: 20px 20px 8px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -479,10 +429,8 @@ h2 {
 
 .portfolio-title {
     background: url(assets/img/line.png);
-    min-width: 700px;
-    min-height: 80px;
-    max-width: 700px;
-    max-height: 80px;
+    width: 700px;
+    height: 80px;
     margin: 102px 368px 58px 372px;
     display: flex;
     justify-content: center;
@@ -494,10 +442,8 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    min-width: 220px;
-    min-height: 80px;
-    max-width: 220px;
-    max-height: 80px;
+    width: 220px;
+    height: 80px;
     display: flex;
     justify-content: center;
 }
@@ -512,20 +458,16 @@ h2 {
 }
 
 .portfolio-buttons {
-    min-width: 895px;
-    min-height: 55px;
-    max-width: 895px;
-    max-height: 55px;
+    width: 895px;
+    height: 55px;
     margin: 62px 290px 60px 274px;
     display: flex;
     flex-direction: row;
 }
 
 .button-win {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 0px 5px 0px 0px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
@@ -563,10 +505,8 @@ h2 {
 }
 
 .button-spr {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 0px 5px 0px 0px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
@@ -603,10 +543,8 @@ h2 {
 }
 
 .button-sum {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 0px 5px 0px 0px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
@@ -645,10 +583,8 @@ h2 {
 
 
 .button-aut {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 0px 5px 0px 0px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
@@ -691,20 +627,16 @@ h2 {
 }
 
 .portfolio-items {
-    min-width: 1400px;
-    min-height: 1145px;
-    max-width: 1400px;
-    max-height: 1145px;
+    width: 1400px;
+    height: 1145px;
     margin: 20px 10px 20px 20px;
     display: flex;
     flex-direction: column;
 }
 
 .container1 {
-    min-width: 1400px;
-    min-height: 560px;
-    max-width: 1400px;
-    max-height: 560px;
+    width: 1400px;
+    height: 560px;
     display: flex;
     margin: 0px 0px 25px 0px;
     padding: 0px 0px 0px 2px;
@@ -712,71 +644,55 @@ h2 {
 }
 
 .container2 {
-    min-width: 1400px;
-    min-height: 560px;
-    max-width: 1400px;
-    max-height: 560px;
+    width: 1400px;
+    height: 560px;
     display: flex;
     padding: 0px 0px 0px 2px;
 }
 
 
 .portfolio-img1 {
-    min-width: 450px;
-    min-height: 560px;     
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
     margin: 0px 25px 0px 0px;
     
 }
 
 .portfolio-img2 {
-    min-width: 450px;
-    min-height: 560px;     
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
     margin: 0px 25px 0px 0px;
     
 }
 
 .portfolio-img3 {
-    min-width: 450px;
-    min-height: 560px;   
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
         
 }
 
 .portfolio-img4 {
-    min-width: 450px;
-    min-height: 560px;   
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
     margin: 0px 25px 0px 0px;
 }
 
 .portfolio-img5 {
-    min-width: 450px;
-    min-height: 560px;    
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
     margin: 0px 25px 0px 0px;
     
 }
 
 .portfolio-img6 {
-    max-width: 450px;
-    max-height: 560px;
-    max-width: 450px;
-    max-height: 560px;
+    width: 450px;
+    height: 560px;
     margin: 0px;
 }
 
 .video-title {
-    max-width: 700px;
-    max-height: 80px;
-    max-width: 700px;
-    max-height: 80px;
+    width: 700px;
+    height: 80px;
     margin: 100px 350px 60px 370px;
     background: url(assets/img/line.png);
     display: flex;
@@ -789,10 +705,8 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    min-width: 154px;
-    min-height: 80px;
-    max-width: 154px;
-    max-height: 80px;
+    width: 154px;
+    height: 80px;
     display: flex;
     justify-content: center;
 }
@@ -807,10 +721,8 @@ h2 {
 }
 
 .video-player {
-    min-width: 1400px;
-    min-height: 705px;
-    max-width: 1400px;
-    max-height: 705px;
+    width: 1400px;
+    height: 705px;
     margin: 0px 18px 100px 22px;
     background: url(assets/img/video-player.jpg);
     background-size: auto 705px;
@@ -819,10 +731,8 @@ h2 {
 }
 
 .player-btn {
-    min-width: 129.86px;
-    min-height: 130px;
-    max-width: 129.86px;
-    max-height: 130px;
+    width: 129.86px;
+    height: 130px;
     margin: 288px 634.14px 287px 636px;
     display: flex;
     background: url(assets/svg/Play_hover.svg);
@@ -844,10 +754,8 @@ h2 {
 }
 
 .price-title {
-    min-width: 700px;
-    min-height: 80px;
-    max-width: 700px;
-    max-height: 80px;
+    width: 700px;
+    height: 80px;
     margin: 100px 350px 60px 370px;
     background: url(assets/img/line.png);
     display: flex;
@@ -860,10 +768,8 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     background-color: #000000;
-    min-width: 142px;
-    min-height: 80px;
-    max-width: 142px;
-    max-height: 80px;
+    width: 142px;
+    height: 80px;
     display: flex;
     justify-content: center;
 }
@@ -879,45 +785,35 @@ h2 {
 }
 
 .price-items {
-    min-width: 1400px;
-    min-height: 505px;
-    max-width: 1400px;
-    max-height: 505px;
+    width: 1400px;
+    height: 505px;
     margin: 0px 18px 100px 22px;
     display: flex;
 }
 
 .standard {
     border: 2px solid #bdae82;
-    min-width: 450px;
-    min-height: 505px;
-    max-width: 450px;
-    max-height: 505px;
+    width: 450px;
+    height: 505px;
     margin: 0px 25px 0px 0px;
 }
 
 .premium {
     border: 2px solid #bdae82;
-    min-width: 450px;
-    min-height: 505px;
-    max-width: 450px;
-    max-height: 505px;
+    width: 450px;
+    height: 505px;
     margin: 0px 25px 0px 0px;
 }
 
 .gold {
     border: 2px solid #bdae82;
-    min-width: 450px;
-    min-height: 505px;
-    max-width: 450px;
-    max-height: 505px;
+    width: 450px;
+    height: 505px;
 }
 
 .st-title {
-    min-width: 128px;
-    min-height: 56px;
-    max-width: 128px;
-    max-height: 56px;
+    width: 128px;
+    height: 56px;
     margin: 41px 161px 22px 161px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
@@ -928,10 +824,8 @@ h2 {
 }
 
 .pr-title {
-    min-width: 132px;
-    min-height: 56px;
-    max-width: 132px;
-    max-height: 56px;
+    width: 132px;
+    height: 56px;
     margin: 41px 159px 22px 159px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
@@ -941,10 +835,8 @@ h2 {
 }
 
 .go-title {
-    min-width: 67px;
-    min-height: 56px;
-    max-width: 67px;
-    max-height: 56px;
+    width: 67px;
+    height: 56px;
     margin: 41px 191px 22px 192px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
@@ -954,10 +846,8 @@ h2 {
 }
 
 .st-price {
-    min-width: 69px;
-    min-height: 48px;
-    max-width: 69px;
-    max-height: 48px;
+    width: 69px;
+    height: 48px;
     margin: 20px 191px 18px 190px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
@@ -968,10 +858,8 @@ h2 {
 }
 
 .pr-price {
-    min-width: 68px;
-    min-height: 48px;
-    max-width: 68px;
-    max-height: 48px;
+    width: 68px;
+    height: 48px;
     margin: 20px 191px 18px 191px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
@@ -982,10 +870,8 @@ h2 {
 }
 
 .go-price {
-    min-width: 81px;
-    min-height: 48px;
-    max-width: 81px;
-    max-height: 48px;
+    width: 81px;
+    height: 48px;
     margin: 20px 185px 18px 184px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
@@ -996,10 +882,8 @@ h2 {
 }
 
 .st-text {
-    min-width: 364px;
-    min-height: 180px;
-    max-width: 364px;
-    max-height: 180px;
+    width: 364px;
+    height: 180px;
     margin: 0px 42.67px 42px 43.33px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -1012,10 +896,8 @@ h2 {
 }
 
 .pr-text {
-    min-width: 364px;
-    min-height: 180px;
-    max-width: 364px;
-    max-height: 180px;
+    width: 364px;
+    height: 180px;
     margin: 0px 43.02px 42px 42.98px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -1028,10 +910,8 @@ h2 {
 }
 
 .go-text {
-    min-width: 364px;
-    min-height: 180px;
-    max-width: 364px;
-    max-height: 180px;
+    width: 364px;
+    height: 180px;
     margin: 0px 43.36px 42px 42.64px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -1044,10 +924,8 @@ h2 {
 }
 
 .price-buttons {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     margin: 0px 115px 45px 115px;
     border: solid 2px #bdae82;
     font-family: 'Inter', sans-serif;
@@ -1084,19 +962,14 @@ h2 {
 
 .contacts {
     border: 1px solid transparent;
-    min-width: 1440px;
-    min-height: 700px;
-    max-width: 1440px;
-    max-height: 700px;
+    width: 1440px;
+    height: 700px;
     background: url(assets/img/contacts.jpg);
 }
 
 .contacts-container {
-    
-    min-width: 450px;
-    min-height: 445px;
-    max-width: 450px;
-    max-height: 445px;
+    width: 450px;
+    height: 445px;
     margin: 60px 20px 210px 970px;
     display: flex;
     justify-content: flex-start;
@@ -1104,11 +977,8 @@ h2 {
 }
 
 .contacts-title {
-    
-    min-width: 450px;
-    min-height: 80px;
-    max-width: 450px;
-    max-height: 80px; 
+    width: 450px;
+    height: 80px; 
     display: flex;
     justify-content: flex-start;
     font-family: 'Merriweather', serif;
@@ -1137,20 +1007,16 @@ h2 {
 
 .email-block {
     border: solid 2px #bdae82;
-    min-width: 450px;
-    min-height: 50px;
-    max-width: 450px;
-    max-height: 50px; 
+    width: 450px;
+    height: 50px; 
     margin: 40px 0px 20px 0px;
     background: rgba(0, 0, 0, 0.5);
     
 }
 
 #email {
-    min-width: 448px;
-    min-height: 48px;
-    max-width: 448px;
-    max-height: 48px; 
+    width: 448px;
+    height: 48px; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1168,19 +1034,15 @@ input::-webkit-input-placeholder {
 
 .phone-block {
     border: solid 2px #bdae82;
-    min-width: 450px;
-    min-height: 50px;
-    max-width: 450px;
-    max-height: 50px; 
+    width: 450px;
+    height: 50px; 
     margin: 0px 0px 20px 0px;
     
 }
 
 #phone {
-    min-width: 448px;
-    min-height: 48px;
-    max-width: 448px;
-    max-height: 48px; 
+    width: 448px;
+    height: 48px; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1196,19 +1058,15 @@ input::-webkit-input-placeholder {
 
 .message-block {
     border: solid 2px #bdae82;
-    min-width: 450px;
-    min-height: 100px;
-    max-width: 450px;
-    max-height: 100px; 
+    width: 450px;
+    height: 100px; 
     margin: 0px 0px 30px 0px;
     
 }
 
 #message {
-    min-width: 448px;
-    min-height: 98px;
-    max-width: 448px;
-    max-height: 98px; 
+    width: 448px;
+    height: 98px; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1227,10 +1085,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .contacts-button {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px; 
+    width: 220px;
+    height: 55px; 
 }
 
 .cont-btn {
@@ -1258,10 +1114,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .cont-btn {
-    min-width: 220px;
-    min-height: 55px;
-    max-width: 220px;
-    max-height: 55px;
+    width: 220px;
+    height: 55px;
     background: #bdae82;
     font-family: 'Inter', sans-serif;
     color: #000000;
@@ -1276,18 +1130,14 @@ textarea::-webkit-input-placeholder {
     max-width: 1440px;
     margin: 0 auto;
     background-color: #000000;
-    min-width: 1440px;
-    min-height: 150px;
-    max-width: 1440px;
-    max-height: 150px;
+    width: 1440px;
+    height: 150px;
     display: flex;
 }
 
 .year-git {
-    min-width: 182px;
-    min-height: 50px;
-    max-width: 182px;
-    max-height: 50px;
+    width: 182px;
+    height: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1299,33 +1149,25 @@ textarea::-webkit-input-placeholder {
 }
 
 .copyright {
-    min-width: 19px;
-    min-height: 50px;
-    max-width: 19px;
-    max-height: 50px;
+    width: 19px;
+    height: 50px;
 }
 
 .year {
-    min-width: 49px;
-    min-height: 50px;
-    max-width: 49px;
-    max-height: 50px;
+    width: 49px;
+    height: 50px;
     margin: 0px 0px 0px 20px;
 }
 
 .git {
-    min-width: 61px;
-    min-height: 50px;
-    max-width: 61px;
-    max-height: 50px;
+    width: 61px;
+    height: 50px;
     margin: 0px 13px 0px 20px;
 }
 
 .rolling {
-    min-width: 211px;
-    min-height: 50px;
-    max-width: 211px;
-    max-height: 50px;
+    width: 211px;
+    height: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1336,10 +1178,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .media {
-    min-width: 188px;
-    min-height: 50px;
-    max-width: 188px;
-    max-height: 50px;
+    width: 188px;
+    height: 50px;
     margin: 50px 20px 50px 0px;
     align-items: center;
     display: flex;
@@ -1354,10 +1194,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .inst {
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
     transition: 1s;
@@ -1367,10 +1205,8 @@ textarea::-webkit-input-placeholder {
     filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
 }
 .fb {
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
     transition: 1s;
@@ -1380,10 +1216,8 @@ textarea::-webkit-input-placeholder {
     filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
 }
 .twitter {
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
     margin: 9px 20px 9px 0px;
     cursor: pointer;
    transition: 1s;
@@ -1394,10 +1228,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .pinterest {
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
     margin: 9px 0px 9px 0px;
     cursor: pointer;
     transition: 1s;
@@ -1409,7 +1241,6 @@ textarea::-webkit-input-placeholder {
 
 .all {
     background-color: #000000;
-    background-size: 100%;
 }
 
 @media screen and (min-width: 769px) {
@@ -1427,19 +1258,49 @@ textarea::-webkit-input-placeholder {
        
     }
     .container-header {
+        display: flex;
+        flex-direction: column;
         max-height: 590px;
         max-width: 768px;
         background-position: -10px -37px;
         background-size: auto 620px;
         margin: 0px; 
     }
+
+    .logo {
+        max-height: 50px;
+        max-width: 50px;
+        margin: 20px 442px 20px 60px;
+    }
+    
     .header-nav {
         max-height: 90px;
         max-width: 768px;
     }
 
+    .nav {
+        position: absolute;
+        width: 620px;
+        height: 1024px;
+        left: 148px;
+        top: 0px;
+        background-color: #000000;
+    } 
+
     .navigation {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        max-width: 149.45px;
+        max-height: 426.75px;
+        background-color: #000000;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 134px 343.55px 463.25px 127px;
+        font-size: 34.82px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color:#FFFFFF;
+        line-height: 72.55px;
     }
 
     .switch-lng {
