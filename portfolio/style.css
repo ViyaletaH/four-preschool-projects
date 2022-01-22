@@ -1,19 +1,23 @@
 html {
     scroll-behavior: smooth;
 }
+html, body {
+    margin:0;
+    padding:0;
+    }
 
 * {
     box-sizing: border-box;
-  }
+}
 .container-header {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px;
     background-color: #000000;
     background: url(assets/img/bg.jpg);
     width: 1440px;
     height: 910px;
-    left: 0px;
-    top: 0px;
+    background-repeat: no-repeat;
+    
 }
 
 .header-nav {
@@ -1246,31 +1250,42 @@ textarea::-webkit-input-placeholder {
 @media screen and (min-width: 769px) {
     .hamburger {
         display: none;
+       
     }
 } 
 
 @media screen and (max-width: 768px) {
+    
+    body {
+        min-width: 320px;
+        overflow-x: hidden;
+        background-color: #000000;
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: contain;
+       
+    }
     .all {
-        max-width: 768px;
+        max-width: calc (100% - 1px);
+        min-width: 320px;
     } 
     header {
         block-size: 590px;
-       
+    
     }
     .container-header {
+        position: relative;
         display: flex;
-        flex-direction: column;
         max-height: 590px;
         max-width: 768px;
-        background-position: -10px -37px;
-        background-size: auto 620px;
-        margin: 0px; 
+        background-image: url('assets/img/bg-small.jpg');
+        flex-direction: column;
     }
 
     .logo {
         max-height: 50px;
         max-width: 50px;
-        margin: 20px 442px 20px 60px;
+        margin: 20px 440px 20px 60px;
     }
     
     .header-nav {
@@ -1280,10 +1295,9 @@ textarea::-webkit-input-placeholder {
 
     .nav {
         position: absolute;
-        width: 620px;
-        height: 1024px;
+        max-width: 620px;
+        max-height: 1024px;
         left: 148px;
-        top: 0px;
         background-color: #000000;
     } 
 
@@ -1294,19 +1308,33 @@ textarea::-webkit-input-placeholder {
         max-height: 426.75px;
         background-color: #000000;
         align-items: flex-start;
-        padding: 0px;
         margin: 134px 343.55px 463.25px 127px;
         font-size: 34.82px;
-        font-family: 'Inter', sans-serif;
         font-weight: 400;
         color:#FFFFFF;
         line-height: 72.55px;
+        position: absolute;
+        z-index: 3;
+        right: -620px;
+        overflow-x: hidden;
+        
+    }
+
+    .li1 {
+        align-self: flex-start;
+        justify-content: flex-start;
+        padding: 0px;
     }
 
     .switch-lng {
         max-width: 82px;
         max-height: 50px;
+        margin-top: 20px;
+    }
 
+    .lang2 {
+        padding-left: 7px;
+        
     }
     
     .hamburger {
@@ -1314,20 +1342,63 @@ textarea::-webkit-input-placeholder {
         flex-direction: column;
         max-height: 50px;
         max-width: 50px;
-        margin: 20px 64px 20px 0px;
+        margin: 15px 64px 25px 12px;
         text-align: center;
-        justify-content: space-between;
+               
     }
 
     .line {
-        height: 2px;
         width: 50px;
+        height: 3px;
         background-color: #FFFFFF;
-        
+        display: block;
+        margin: auto;
     }
+
     #hero {
         max-width: 768px;
         max-height: 270px;
     }
+
+    .hero {
+        max-width: 290px;
+        max-height: 370px;
+        margin: 78px 318px 152px 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title {
+        max-width: 165px;
+        max-height: 64px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-size: 31px;
+        line-height: 64px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     
+    .hero-text {
+        max-width: 390px;
+        max-height: 72px;
+        margin-bottom: 60px;
+        line-height: 24.2px;
+    }
+    .button {
+        max-width: 219px;
+        max-height: 54px;
+        margin: 10px 489px 152px 0px;
+    }
+
+    .skills-title {
+        max-width: 364px;
+        max-height: 80px;
+        margin: 80px 202px 36px 202px;
+    }
+
+    
+
 }
