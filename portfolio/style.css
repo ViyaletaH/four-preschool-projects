@@ -1256,7 +1256,7 @@ textarea::-webkit-input-placeholder {
     
     body {
         min-width: 320px;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
         background-color: #000000;
         background-position-x: 0px;
         background-position-y: 0px;
@@ -1817,4 +1817,43 @@ textarea::-webkit-input-placeholder {
     .contacts-button {
         margin-left: 112px;
     }
+
+    .container-footer {
+        max-width: 768px;
+        max-height: 190px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+    }
+
+    .year-git {
+        margin: 0px 269px 0px 297px;
+        max-height: 40px;
+    }
+
+    .git {
+        margin: 0px 18px 0px 25px;
+        max-height: 40px;
+    }
+
+    .year {
+        max-height: 40px;
+    }
+
+    .copyright {
+        max-height: 40px;
+    }
+
+    .rolling {
+        margin: 0px 279px 0px 279px;
+        text-align: start;
+        
+           
+    }
+
+    .media {
+        margin: 5px 258px 0px 290px;
+        
+    }
+    
 }
