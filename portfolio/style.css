@@ -1672,7 +1672,7 @@ textarea::-webkit-input-placeholder {
     .video-player {
         max-width: 768px;
         max-height: 418px;
-        margin-left: 0px;
+        margin: 0px;
         background-image: url(assets/img/video-player-small.jpg);
         background-size: contain;
     }
@@ -1688,5 +1688,95 @@ textarea::-webkit-input-placeholder {
         max-height: 70px;
     }
 
+    #price {
+        max-width: 768px;
+        max-height: 3000px;
+    }
 
+    .price {
+        max-width: 768px;
+        max-height: 3000px;
+    }
+
+    .price-title {
+        max-width: 364px;
+        max-height: 80px;
+        margin: 80px 202px 50px 202px;
+    }
+
+    .pri-tit-itself {
+        font-size: 32px;
+        max-width: 122px;
+        max-height: 80px;
+        padding-top: 7px;
+        padding-right: 1px;
+    }
+
+    .price-items {
+        max-width: 420px;
+        height: 1615px;
+        margin: 50px 174px 50px 174px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .standard {
+        max-height: 505px;
+        max-width: 420px;
+        margin-bottom: 50px;
+    }
+
+    .st-title {
+        margin: 41px 161px 22px 143px;
+
+    }
+
+    .st-price {
+        margin: 20px 191px 18px 174px;
+
+    }
+    .st-text {
+        margin: 0px 42.67px 42px 26px;
+    }
+
+    .price-buttons {
+        margin: 0px 115px 49px 97px;
+    }
+    .premium {
+        max-height: 505px;
+        max-width: 420px;
+        margin-bottom: 50px;
+    }
+
+    .pr-title {
+        margin: 41px 161px 22px 143px;
+
+    }
+
+    .pr-price {
+        margin: 20px 191px 18px 174px;
+
+    }
+    .pr-text {
+        margin: 0px 42.67px 42px 26px;
+    }
+
+    .gold {
+        max-height: 505px;
+        max-width: 420px;
+        margin-bottom: 50px;
+    }
+
+    .go-title {
+        margin: 41px 161px 22px 177px;
+
+    }
+
+    .go-price {
+        margin: 20px 191px 18px 166px;
+
+    }
+    .go-text {
+        margin: 0px 42.67px 42px 26px;
+    }
 }
