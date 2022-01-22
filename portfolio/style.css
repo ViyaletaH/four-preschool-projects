@@ -1412,12 +1412,12 @@ textarea::-webkit-input-placeholder {
         position: absolute;
         width: 620px;
         height: 1024px;
-        margin-left: 148px;
         background-color: #000000;
         z-index: 0;
         right: 0px;
         margin: 0px 0px 15px 780px;
         transition: 2s;
+        overflow-x: visible;
         
     } 
 
@@ -1425,7 +1425,6 @@ textarea::-webkit-input-placeholder {
         position: absolute;
         width: 620px;
         height: 1024px;
-        left: 148px;
         background-color: #000000;
         z-index: 0;
         right: -620px;
