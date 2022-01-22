@@ -1526,7 +1526,7 @@ textarea::-webkit-input-placeholder {
     }
 
     .portfolio {
-        max-height: 3870px;
+        height: 3870px;
         max-width: 768px;
         
     }
@@ -1545,7 +1545,7 @@ textarea::-webkit-input-placeholder {
 
     #portfolio {
         max-width: 768px;
-        max-height: 3870px;
+        height: 3870px;
     }
 
     .portfolio-buttons {
@@ -1644,6 +1644,49 @@ textarea::-webkit-input-placeholder {
         margin-bottom: 25px;
     }
 
-    
+    #video{
+        max-width: 768px;
+        max-height: 628px;
+    }   
+
+    .video {
+        max-width: 768px;
+        max-height: 628px;
+        position: relative;
+
+    }
+
+    .video-title {
+        max-width: 364px;
+        max-height: 80px;
+        margin: 0px 350px 50px 200px;
+    }
+
+    .vid-tit-itself {
+        max-width: 131px;
+        max-height: 80px;
+        font-size: 32px;
+        margin: 5px 202px 0px 202px;
+    }
+
+    .video-player {
+        max-width: 768px;
+        max-height: 418px;
+        margin-left: 0px;
+        background-image: url(assets/img/video-player-small.jpg);
+        background-size: contain;
+    }
+
+    .player-btn {
+        max-width: 70px;
+        max-height: 70px;
+        background-size: contain;
+        margin: 174px 349px 174px 349px;
+    }
+    .pl-btn {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
 
 }
