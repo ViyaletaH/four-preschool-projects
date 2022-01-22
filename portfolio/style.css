@@ -1256,7 +1256,7 @@ textarea::-webkit-input-placeholder {
     
     body {
         min-width: 320px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         background-color: #000000;
         background-position-x: 0px;
         background-position-y: 0px;
@@ -1272,7 +1272,6 @@ textarea::-webkit-input-placeholder {
     
     }
     .container-header {
-        
         display: flex;
         max-height: 590px;
         max-width: 768px;
@@ -1291,32 +1290,8 @@ textarea::-webkit-input-placeholder {
         max-width: 768px;
     }
 
-    .nav {
-        position: absolute;
-        max-width: 620px;
-        max-height: 1024px;
-        left: 148px;
-        background-color: #000000;
-    } 
-
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        max-width: 149.45px;
-        max-height: 426.75px;
-        background-color: #000000;
-        align-items: flex-start;
-        margin: 134px 343.55px 463.25px 127px;
-        font-size: 34.82px;
-        font-weight: 400;
-        color:#FFFFFF;
-        line-height: 72.55px;
-        position: absolute;
-        z-index: 3;
-        right: -620px;
-        overflow-x: hidden;
-        
-    }
+   
+    
 
     .li1 {
         align-self: flex-start;
@@ -1342,8 +1317,126 @@ textarea::-webkit-input-placeholder {
         max-width: 50px;
         margin: 15px 64px 25px 12px;
         text-align: center;
+        cursor: pointer;
                
     }
+
+    .hamburger.open {
+        display: flex;
+        flex-direction: column;
+        max-height: 50px;
+        max-width: 50px;
+        margin: 15px 64px 25px 12px;
+        text-align: center;
+        background-color: lawngreen;
+    }
+
+    .navigation {
+        position:sticky;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 249.45px;
+        height: 426.75px;
+        background-color: #000000;
+        align-items: flex-start;
+        margin-right: 238px;
+        margin-bottom: 365px;
+        padding-left: 0px;
+        margin-left: 90px;
+        font-size: 34px;
+        font-weight: 400;
+        color:#FFFFFF;
+        line-height: 72.55px;
+        z-index: 1;
+        overflow-x: hidden;
+        transition: 2s;
+        right: -620px;        
+    }
+
+    .navigation.open {
+        position:sticky;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 249.45px;
+        height: 426.75px;
+        background-color: #000000;
+        align-items: flex-start;
+        margin-right: 238px;
+        margin-bottom: 365px;
+        padding-left: 0px;
+        margin-left: 90px;
+        font-size: 34px;
+        font-weight: 400;
+        color:#FFFFFF;
+        line-height: 72.55px;
+        z-index: 1;
+        overflow-x: hidden;
+        transition: 2s;
+        right: 0px;        
+    }
+
+    .li1 {
+        align-content: flex-end;
+        
+        
+        z-index: auto;
+    }
+
+    .li2 {
+        
+       
+        z-index: auto;
+    }
+
+    .li3 {
+        
+        
+        z-index: auto;
+    }
+
+    .li4 {
+        
+        
+        z-index: auto;
+    }
+
+    .li5 {
+        
+        
+        z-index: auto;
+    }
+    
+    .nav.open {
+        position: absolute;
+        width: 620px;
+        height: 1024px;
+        margin-left: 148px;
+        background-color: #000000;
+        z-index: 0;
+        right: 0px;
+        margin: 0px 0px 15px 780px;
+        transition: 2s;
+        
+    } 
+
+    .nav {
+        position: absolute;
+        width: 620px;
+        height: 1024px;
+        left: 148px;
+        background-color: #000000;
+        z-index: 0;
+        right: -620px;
+        margin: 0px 0px 15px 780px;
+        overflow-x: hidden;
+        transition: 2s;
+        
+    } 
+
+    
+
 
     .line {
         width: 50px;
