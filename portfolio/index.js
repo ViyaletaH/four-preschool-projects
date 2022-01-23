@@ -3,9 +3,12 @@ console.log(
 );
 const a = document.querySelector('.hamburger')
 const b = document.querySelector('.nav')
+const c = document.querySelector('.line1')
+const d = document.querySelector('.line2')
+const f = document.querySelector('.line3')
 
 a.addEventListener('click', () => {
-    b.classList.toggle('open')
+    b.classList.toggle('open') + c.classList.toggle('open') + d.classList.toggle('open') + f.classList.toggle('open') + a.classList.toggle('open')
 })
 
 
