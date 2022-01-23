@@ -1318,7 +1318,12 @@ textarea::-webkit-input-placeholder {
         margin: 15px 64px 25px 12px;
         text-align: center;
         cursor: pointer;
+        transition: 1s;
                
+    }
+
+    .hamburger:hover {
+        filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
     }
 
     
@@ -1347,7 +1352,7 @@ textarea::-webkit-input-placeholder {
     }
 
     .navigation.open {
-        position:sticky;
+        position: sticky;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1439,6 +1444,9 @@ textarea::-webkit-input-placeholder {
         
     }
 
+    .hamburger.open:hover {
+        filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+    }
     
 
     .line1 {
@@ -1472,6 +1480,8 @@ textarea::-webkit-input-placeholder {
         transition: 1s;
         
     }
+    
+    
 
     .line1.open {
         width: 50px;
