@@ -593,39 +593,34 @@ h2 {
     line-height: 40px;
     font-size: 20px;
     font-weight: 400;
-    color: #000000;
-    background-color: #bdae82;
+    color: #bdae82;
+    background-color: #000000;
     cursor: pointer;
 }
 
 .button-aut {
-    color: #000000;
-    background-color: #bdae82;
+    color: #bdae82;
 }
 
 .button-aut:link {
-    color: #000000;
-    background-color: #bdae82;
+    color: #bdae82;
 }
 
 .button-aut:focus {
     color: #000000;
     background-color: #bdae82;
     transition: 1s;
-    
 } 
 
 .button-aut:hover {
     color: #FFFFFF; 
-    background-color: #000000;
     transition: 1s;
-    
 }
 
 .button-aut:active {
     color: #ddb333;
-    background-color: #000000;
-    
+    background-color: #bdae82;
+    transition: 1s;
 }
 
 .portfolio-items {
