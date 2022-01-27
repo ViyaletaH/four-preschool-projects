@@ -43,3 +43,34 @@ autButt.addEventListener ('click', () => {
 sumButt.addEventListener ('click', () => {
     portfolioImgs.forEach((img, index) => img.src = `./assets/img/summer/${index + 1}.jpg`)
 }) 
+
+function changeClassActive() {
+    winButt.addEventListener('click',() => {
+        winButt.classList.add("active")
+        sprButt.classList.remove("active")
+        autButt.classList.remove("active")
+        sumButt.classList.remove("active")
+    })
+
+    sprButt.addEventListener('click',() => {
+        sprButt.classList.add("active")
+        winButt.classList.remove("active")
+        autButt.classList.remove("active")
+        sumButt.classList.remove("active")
+    })
+
+    autButt.addEventListener('click',() => {
+        autButt.classList.add("active")
+        sprButt.classList.remove("active")
+        winButt.classList.remove("active")
+        sumButt.classList.remove("active")
+    })
+
+    sumButt.addEventListener('click',() => {
+        sumButt.classList.add("active")
+        sprButt.classList.remove("active")
+        autButt.classList.remove("active")
+        winButt.classList.remove("active")
+    })
+    
+}
