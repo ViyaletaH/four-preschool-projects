@@ -193,4 +193,11 @@ eng.addEventListener('click', () => {
     document.querySelector('.cont-btn').textContent = 'Send message';
 })
 
+// let arr = [];
+
+const light = document.querySelector('.light')
+
+light.addEventListener('click', () => {
+    light.classList.toggle('dark') 
+})
 

@@ -40,6 +40,31 @@ html, body {
     cursor: pointer;
 
 }
+
+.light {
+    margin: 25px 0px 0px 0px;
+    transition: 1s;
+    background-image: url(./assets/svg/carbon_sun.svg);
+    
+    min-width: 45px;
+    height: 45px;
+}
+
+.light.dark {
+    margin: 25px 0px 0px 0px;
+    transition: 1s;
+    background-image: url(./assets/svg/moon_white.svg);
+    max-width: 40.82px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.light:hover {
+    filter: contrast(50%) brightness(70%) sepia(30%) invert(30%) saturate(900%);
+    cursor: pointer;
+
+}
+
 .nav {
     align-items: center;
     width: 500px;
@@ -47,7 +72,7 @@ html, body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    margin: 25px 0px 15px 780px; 
+    margin: 25px 0px 15px 705px; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;     
@@ -173,7 +198,7 @@ a:active {
 .switch-lng {
     width: 70px;
     height: 50px;
-    margin: 25px 17px 15px 3px;
+    margin: 25px 25px 15px 3px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -1337,9 +1362,6 @@ textarea::-webkit-input-placeholder {
         max-height: 90px;
         max-width: 768px;
     }
-
-   
-    
 
     .li1 {
         align-self: flex-start;
