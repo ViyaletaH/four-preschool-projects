@@ -193,11 +193,17 @@ eng.addEventListener('click', () => {
     document.querySelector('.cont-btn').textContent = 'Send message';
 })
 
-// let arr = [];
 
 const light = document.querySelector('.light')
 
 light.addEventListener('click', () => {
     light.classList.toggle('dark') 
+    
 })
 
+const arr = [document.querySelector('.container-main'), document.querySelector('.skills-title'), document.querySelector('.title-itself'), document.querySelector('.ph-name'), document.querySelector('.ph-text'), document.querySelector('.vid-name'), document.querySelector('.vid-text'), document.querySelector('.ret-name'), document.querySelector('.ret-text'), document.querySelector('.aud-name'), document.querySelector('.aud-text'), document.querySelector('.portfolio-title'), document.querySelector('.port-tit-itself'), document.querySelector('.button-win'), document.querySelector('.button-spr'), document.querySelector('.button-sum'), document.querySelector('.button-aut'), document.querySelector('.video-title'), document.querySelector('.vid-tit-itself'), document.querySelector('.price-title'), document.querySelector('.pri-tit-itself'), document.querySelector('.st-title'), document.querySelector('.pr-title'), document.querySelector('.go-title'), document.querySelector('.st-text'), document.querySelector('.pr-text'), document.querySelector('.go-text'), document.querySelector('.price-buttons')];
+
+light.addEventListener('click', () => {
+arr.forEach((function(item) {
+    item.classList.toggle('light-theme')
+}))})
