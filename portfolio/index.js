@@ -1,8 +1,5 @@
 import i18Obj from './translate.js';
 
-console.log(
-'Верстка валидная +10\nВёрстка семантическая +20-да\nВ коде странице присутствуют следующие элементы:\nheader, main, footer +2-да\nшесть элементов section +2-да\nтолько один заголовок h1 +2-да\nпять заголовков h2 +2-да\nодин элемент nav +2-да\nдва списка ul-li-a (панель навигации, ссылки на соцсети) +2-да\nдесять кнопок button +2-да\nдва инпута: input type="email" и input type="tel" +2-да\nодин элемент textarea +2-да\nтри атрибута placeholder +2-да\nВёрстка соответствует макету +48-да\nблок header +6-да\nсекция hero +6-да\nсекция skills +6-да\nсекция portfolio +6-да\nсекция video +6-да\nсекция price +6-да\nсекция contacts +6-да\nблок footer +6-да\nТребования к css + 12\nдля построения сетки используются флексы или гриды +2-да, флексы\nпри уменьшении масштаба страницы браузера вёрстка размещается по центру, а не сдвигается в сторону +2-да\nфоновый цвет тянется на всю ширину страницы +2-да\nиконки добавлены в формате .svg. +2-да\nизображения добавлены в формате .jpg +2-да\nесть favicon +2-да\nИнтерактивность, реализуемая через css +20\nплавная прокрутка по якорям +5-да \nссылки в футере ведут на гитхаб автора проекта и на страницу курса +5-да\nинтерактивность включает в себя не только изменение внешнего вида курсора, например, при помощи свойства cursor: pointer,\nно и другие визуальные эффекты, например, изменение цвета фона или цвета шрифта. +5-да, согласно макету: кнопки и ссылки(текстовые)+реализация своих дизайнерских воззрений относительно переходов хд\nплавное изменение внешнего вида элемента при наведении и клике не влияющее на соседние элементы +5-да\nTotal score: 100/100'
-);
 const a = document.querySelector('.hamburger')
 const b = document.querySelector('.nav')
 const c = document.querySelector('.line1')
@@ -20,9 +17,6 @@ e.addEventListener('click', () => {
    b.classList.remove('open') + c.classList.remove('open') + d.classList.remove('open') + f.classList.remove('open') + a.classList.remove('open')
    
 })
-
-console.log('Вёрстка соответствует макету. Ширина экрана 768px +48-да\nНи на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки. Весь контент страницы при этом сохраняется: не обрезается и не удаляется +15-контент частично обрезается 5 из 15 пунктов\nнет полосы прокрутки при ширине страницы от 1440рх до 768рх +5-да\nнет полосы прокрутки при ширине страницы от 768рх до 480рх +5-да\nнет полосы прокрутки при ширине страницы от 480рх до 320рх +5-да\nНа ширине экрана 768рх и меньше реализовано адаптивное меню +22-да\nпри ширине страницы 768рх панель навигации скрывается, появляется бургер-иконка +2-да\nпри нажатии на бургер-иконку справа плавно появляется адаптивное меню, бургер-иконка изменяется на крестик +4-да\nвысота адаптивного меню занимает всю высоту экрана. При ширине экрана 768-620рх вёрстка меню соответствует макету, когда экран становится уже, меню занимает всю ширину экрана +4-да, но высота не по экрану, 2 из 4\nпри нажатии на крестик адаптивное меню плавно скрывается уезжая за правую часть экрана, крестик превращается в бургер-иконку +4-да\nбургер-иконка, которая при клике превращается в крестик, создана при помощи css-анимаций без использования изображений +2-да\nссылки в адаптивном меню работают, обеспечивая плавную прокрутку по якорям +2-да\nпри клике по ссылке в адаптивном меню адаптивное меню плавно скрывается, крестик превращается в бургер-иконку +4-нет')
-
 
 const portfolioImgs = document.querySelectorAll('#portfolio-img');
 const winButt = document.querySelector('.button-win')
@@ -76,3 +70,127 @@ function changeClassActive() {
     })
     
 }
+
+import {i18Obj as i} from './translate.js'
+
+const rus = document.querySelector('.rus');
+const eng = document.querySelector('.eng');
+// let lang;
+
+
+
+// rus.addEventListener('click', function() {
+//   lang = 'ru';
+// function getTranslate(lang) {
+//     const datas= document.querySelectorAll(data-i18);
+//     {datas.forEach((item) => {
+//         item.textContent = i[lang][item.dataset.i18n];
+//         } 
+//         ); return(lang);
+    
+//     }
+// }
+// }
+// )
+
+rus.addEventListener('click', () => {
+    
+    document.querySelector('.hero-title').textContent = 'Алекса Райс';
+    document.querySelector('.h2skills').textContent = 'Навыки';
+    document.querySelector('.h2portfolio').textContent = 'Портфолио';
+    document.querySelector('.h2video').textContent = 'Видео';
+    document.querySelector('.h2price').textContent = 'Цены';
+    document.getElementById('liskills').textContent = 'Навыки';
+    document.getElementById('liportfolio').textContent = 'Портфолио';
+    document.getElementById('livideo').textContent = 'Видео';
+    document.getElementById('liprice').textContent = 'Цены';
+    document.getElementById('contactsli').textContent = 'Контакты';
+    document.querySelector('.hero-text').textContent  = 'Сохраните искренние эмоции, романтические переживания и счастливые моменты жизни вместе с профессиональным фотографом';
+    document.querySelector('.button').textContent = 'Пригласить';
+    document.querySelector('.ph-name').textContent = 'Фотография';
+    document.querySelector('.ph1').textContent = 'Высококачественные  фото в студии';
+    document.querySelector('.ph2').textContent = 'и на природе';
+    document.querySelector('.vid-name').textContent = 'Видеосъемка';
+    document.querySelector('.vid-text').textContent = 'Запечатлите лучшие моменты, чтобы они всегда оставались с вами';
+    document.querySelector('.ret-name').textContent = 'Ретушь';
+    document.querySelector('.ret-text').textContent = 'Я стремлюсь к тому, чтобы фотография превосходила реальность';
+    document.querySelector('.aud-name').textContent = 'Звук';
+    document.querySelector('.aud-text').textContent = 'Профессиональная запись звука для видео, рекламы, портфолио';
+    document.querySelector('.button-win').textContent = 'Зима';
+    document.querySelector('.button-spr').textContent = 'Весна',
+    document.querySelector('.button-sum').textContent = 'Лето',
+    document.querySelector('.button-aut').textContent = 'Осень',
+    document.getElementById('price-description-1-span-1').textContent = 'Одна локация';
+    document.getElementById('price-description-1-span-2').textContent = '120 цветных фото';
+    document.getElementById('price-description-1-span-3').textContent = '12 отретушированных фото';
+    document.getElementById('price-description-1-span-4').textContent = 'Готовность через 2-3 недели';
+    document.getElementById('price-description-1-span-5').textContent = 'Макияж, визаж';
+    document.getElementById('price-description-2-span-1').textContent = 'Одна-две локации';
+    document.getElementById('price-description-2-span-2').textContent = '200 цветных фото';
+    document.getElementById('price-description-2-span-3').textContent = '20 отретушированных фото';
+    document.getElementById('price-description-2-span-4').textContent = 'Готовность через 1-2 недели';
+    document.getElementById('price-description-2-span-5').textContent = 'Макияж, визаж';
+    document.getElementById('price-description-3-span-1').textContent = 'Три локации и больше';
+    document.getElementById('price-description-3-span-2').textContent = '300 цветных фото';
+    document.getElementById('price-description-3-span-3').textContent = '50 отретушированных фото';
+    document.getElementById('price-description-3-span-4').textContent = 'Готовность через 1 неделю';
+    document.getElementById('price-description-3-span-5').textContent = 'Макияж, визаж, прическа';
+    document.getElementById('price-btn1').textContent = 'Заказать съемку';
+    document.getElementById('price-btn2').textContent = 'Заказать съемку';
+    document.getElementById('price-btn3').textContent = 'Заказать съемку';
+    document.getElementById('message').textContent = 'Ваше сообщение';
+    document.querySelector('.contactsh2').textContent = 'Свяжитесь со мной';
+    document.querySelector('.cont-btn').textContent = 'Отправить';
+   }  
+) 
+
+eng.addEventListener('click', () => {
+    document.querySelector('.hero-title').textContent = 'Alexa Rise';
+    document.querySelector('.h2skills').textContent = 'Skills';
+    document.querySelector('.h2portfolio').textContent = 'Portfolio';
+    document.querySelector('.h2video').textContent = 'Video';
+    document.querySelector('.h2price').textContent = 'Price';
+    document.getElementById('liskills').textContent = 'Skills';
+    document.getElementById('liportfolio').textContent = 'Portfolio';
+    document.getElementById('livideo').textContent = 'Video';
+    document.getElementById('liprice').textContent = 'Price';
+    document.getElementById('contactsli').textContent = 'Contacts';
+    document.querySelector('.hero-text').textContent  = 'Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise';
+    document.querySelector('.button').textContent = 'Hire me';
+    document.querySelector('.ph-name').textContent = 'Photo';
+    document.querySelector('.ph1').textContent = 'High-quality photos in the studio';
+    document.querySelector('.ph2').textContent = 'and on the nature';
+    document.querySelector('.vid-name').textContent = 'Video';
+    document.querySelector('.vid-text').textContent = 'Capture your moments so that they always stay with you';
+    document.querySelector('.ret-name').textContent = 'Retouch';
+    document.querySelector('.ret-text').textContent = 'I strive to make photography surpass reality';
+    document.querySelector('.aud-name').textContent = 'Audio';
+    document.querySelector('.aud-text').textContent = 'Professional sounds recording for video, advertising, portfolio';
+    document.querySelector('.button-win').textContent = 'Winter';
+    document.querySelector('.button-spr').textContent = 'Spring',
+    document.querySelector('.button-sum').textContent = 'Summer',
+    document.querySelector('.button-aut').textContent = 'Autumn',
+    document.getElementById('price-description-1-span-1').textContent = 'One location';
+    document.getElementById('price-description-1-span-2').textContent = '120 photos in color';
+    document.getElementById('price-description-1-span-3').textContent = '12 photos in retouch';
+    document.getElementById('price-description-1-span-4').textContent = 'Readiness 2-3 weeks';
+    document.getElementById('price-description-1-span-5').textContent = 'Make up, visage';
+    document.getElementById('price-description-2-span-1').textContent = 'One or two locations';
+    document.getElementById('price-description-2-span-2').textContent = '200 photos in color';
+    document.getElementById('price-description-2-span-3').textContent = '20 photos in retouch';
+    document.getElementById('price-description-2-span-4').textContent = 'Readiness 1-2 weeks';
+    document.getElementById('price-description-2-span-5').textContent = 'Make up, visage';
+    document.getElementById('price-description-3-span-1').textContent = 'Three locations or more';
+    document.getElementById('price-description-3-span-2').textContent = '300 photos in color';
+    document.getElementById('price-description-3-span-3').textContent = '50 photos in retouch';
+    document.getElementById('price-description-3-span-4').textContent = 'Readiness 1 week';
+    document.getElementById('price-description-3-span-5').textContent = 'Make up, visage, hairstyle';
+    document.getElementById('price-btn1').textContent = 'Order shooting';
+    document.getElementById('price-btn2').textContent = 'Order shooting';
+    document.getElementById('price-btn3').textContent = 'Order shooting';
+    document.getElementById('message').textContent = 'Message';
+    document.querySelector('.contactsh2').textContent = 'Contact me';
+    document.querySelector('.cont-btn').textContent = 'Send message';
+})
+
+

@@ -97,8 +97,59 @@ a:active {
     transition: 1s;
 }
 
+.rus {
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
+.rus:link {
+    color: #FFFFFF;
+}
 
+.rus:visited {
+    color: #FFFFFF;
+}
+
+.rus:focus {
+    color: #bdae82;
+} 
+
+.rus:hover {
+    color: #bdae82; 
+    transition: 1s;
+}
+
+.rus:active {
+    color: #ddb333;
+    transition: 1s;
+}
+
+.eng {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.eng:link {
+    color: #FFFFFF;
+}
+
+.eng:visited {
+    color: #FFFFFF;
+}
+
+.eng:focus {
+    color: #bdae82;
+} 
+
+.eng:hover {
+    color: #bdae82; 
+    transition: 1s;
+}
+
+.eng:active {
+    color: #ddb333;
+    transition: 1s;
+}
 .li2 {
     padding: 0px 30px 0px 0px;
     cursor: pointer;
@@ -165,6 +216,8 @@ a:active {
     padding: 5px 0px 0px 2px;
 
 }
+
+
 
 h1 {
     font-size: 100%;
@@ -2086,7 +2139,6 @@ textarea::-webkit-input-placeholder {
     }
 
     
-
     .navigation {
         position:sticky;
         display: flex;

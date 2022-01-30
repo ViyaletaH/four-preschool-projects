@@ -30,16 +30,16 @@
                </div>
                 <nav class="nav">
                 <ul class="navigation">
-                    <li class="li1"><a href=#skills data-i18="skills">Skills</a></li>
-                    <li class="li2"><a href=#portfolio data-i18="portfolio">Portfolio</a></li>
-                    <li class="li3"><a href=#video data-i18="video">Video</a></li>
-                    <li class="li4"><a href=#price data-i18="price">Price</a></li>
-                    <li class="li5"><a href=#contacts data-i18="contacts">Contacts</a></li>
+                    <li class="li1"><a href=#skills id='liskills' data-i18="skills">Skills</a></li>
+                    <li class="li2"><a href=#portfolio id='liportfolio' data-i18="portfolio">Portfolio</a></li>
+                    <li class="li3"><a href=#video id='livideo' data-i18="video">Video</a></li>
+                    <li class="li4"><a href=#price id='liprice' data-i18="price">Price</a></li>
+                    <li class="li5"><a href=#contacts id='contactsli' data-i18="contacts">Contacts</a></li>
                 </ul>
            
                 </nav>
                <div class="switch-lng">
-                <div class="lang"><a href="#" class="eng">en</a></div> <div class="slash">/</div><div class="lang2"><a href="#" class="rus">ru</a></div>
+                <div class="lang"><div class="eng">en</div></div> <div class="slash">/</div><div class="lang2"><div class="rus">ru</div></div>
                </div>
                <div class="hamburger">
                    <span class="line1"></span>
@@ -134,20 +134,20 @@
                         <div class="standard">
                             <div class="st-title">Standard</div>
                             <div class="st-price">500 $</div>
-                            <div class="st-text"><div data-i18='price-description-1-span-1'>One location</div><div data-i18='price-description-1-span-2'>120 photos in color</div><div data-i18='price-description-1-span-3'>12 photos in retouch</div><div data-i18='price-description-1-span-4'>Readiness 2-3 weeks</div><div data-i18='price-description-1-span-5'>Make up, visage</div></div>
-                            <div  class="st-button"><button class="price-buttons" data-i18="order">Order shooting</button></div>
+                            <div class="st-text"><div data-i18='price-description-1-span-1' id='price-description-1-span-1' >One location</div><div data-i18='price-description-1-span-2' id='price-description-1-span-2'>120 photos in color</div><div data-i18='price-description-1-span-3' id='price-description-1-span-3'>12 photos in retouch</div><div data-i18='price-description-1-span-4' id='price-description-1-span-4'>Readiness 2-3 weeks</div><div data-i18='price-description-1-span-5' id='price-description-1-span-5'>Make up, visage</div></div>
+                            <div  class="st-button"><button class="price-buttons" id='price-btn1' data-i18="order">Order shooting</button></div>
                         </div>
                         <div class="premium">
                             <div class="pr-title">Premium</div>
                             <div class="pr-price">700 $</div>
-                            <div class="pr-text"><div data-i18='price-description-2-span-1'>One or two locations</div><div data-i18='price-description-2-span-2'>200 photos in color</div><div data-i18='price-description-2-span-3'>20 photos in retouch</div><div data-i18='price-description-2-span-4'>Readiness 1-2 weeks</div><div data-i18='price-description-2-span-5'>Make up, visage</div></div>
-                            <div  class="pr-button"><button class="price-buttons" data-i18="order">Order shooting</button></div>
+                            <div class="pr-text"><div data-i18='price-description-2-span-1' id='price-description-2-span-1'>One or two locations</div><div id='price-description-2-span-2' data-i18='price-description-2-span-2'>200 photos in color</div><div data-i18='price-description-2-span-3' id='price-description-2-span-3'>20 photos in retouch</div><div data-i18='price-description-2-span-4' id='price-description-2-span-4'>Readiness 1-2 weeks</div><div data-i18='price-description-2-span-5' id='price-description-2-span-5'>Make up, visage</div></div>
+                            <div  class="pr-button"><button class="price-buttons" id='price-btn2' data-i18="order">Order shooting</button></div>
                         </div>
                         <div class="gold">
                             <div class="go-title">Gold</div>
                             <div class="go-price">1000 $</div>
-                            <div class="go-text"><div data-i18='price-description-3-span-1'>Three locations or more</div><div data-i18='price-description-3-span-2'>300 photos in color</div><div data-i18='price-description-3-span-3'>50 photos in retouch</div><div data-i18='price-description-3-span-4'>Readiness 1 week</div><div data-i18='price-description-3-span-5'>Make up, visage, hairstyle</div></div>
-                            <div  class="go-button"><button class="price-buttons" data-i18="order">Order shooting</button></div>
+                            <div class="go-text"><div data-i18='price-description-3-span-1' id='price-description-3-span-1'>Three locations or more</div><div data-i18='price-description-3-span-2' id='price-description-3-span-2'>300 photos in color</div><div data-i18='price-description-3-span-3' id='price-description-3-span-3'>50 photos in retouch</div><div data-i18='price-description-3-span-4' id='price-description-3-span-4'>Readiness 1 week</div><div data-i18='price-description-3-span-5' id='price-description-3-span-5'>Make up, visage, hairstyle</div></div>
+                            <div  class="go-button"><button class="price-buttons" id='price-btn3' data-i18="order">Order shooting</button></div>
                         </div>
                     </div>
                 </div>
@@ -189,6 +189,7 @@
         </div>
     </footer>
     </div>
- <script type="module" src="index.js"></script>   
+ <script type="module" src="index.js" defer></script>
+ <script type="module" src="translate.js" defer></script>      
 </body>
 </html>
