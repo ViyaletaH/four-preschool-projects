@@ -96,6 +96,7 @@ const eng = document.querySelector('.eng');
 // }
 // )
 
+const russian = document.querySelector('.rus')
 rus.addEventListener('click', () => {
     
     document.querySelector('.hero-title').textContent = 'Алекса Райс';
@@ -144,9 +145,11 @@ rus.addEventListener('click', () => {
     document.getElementById('message').textContent = 'Ваше сообщение';
     document.querySelector('.contactsh2').textContent = 'Свяжитесь со мной';
     document.querySelector('.cont-btn').textContent = 'Отправить';
-   }  
+    russian.classList.add('selected')
+    english.classList.remove('selected')
+    }  
 ) 
-
+const english = document.querySelector('.eng')
 eng.addEventListener('click', () => {
     document.querySelector('.hero-title').textContent = 'Alexa Rise';
     document.querySelector('.h2skills').textContent = 'Skills';
@@ -194,8 +197,14 @@ eng.addEventListener('click', () => {
     document.getElementById('message').textContent = 'Message';
     document.querySelector('.contactsh2').textContent = 'Contact me';
     document.querySelector('.cont-btn').textContent = 'Send message';
+    english.classList.add('selected')
+    russian.classList.remove('selected')
 })
 
+
+// function laguage () {
+//     if ()
+// }
 
 const light = document.querySelector('.light')
 
@@ -226,3 +235,4 @@ const x = document.getElementById('contactsli')
 light.addEventListener('click', () => {
      m.classList.toggle('light-theme') + h.classList.toggle('light-theme') + g.classList.toggle('light-theme') + u.classList.toggle('light-theme') + y.classList.toggle('light-theme') + x.classList.toggle('light-theme') 
 })
+

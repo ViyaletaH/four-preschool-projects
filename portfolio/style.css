@@ -134,7 +134,7 @@ a:active {
 }
 
 .rus:visited {
-    color: #FFFFFF;
+    color: #ddb333;
 }
 
 .rus:focus {
@@ -148,7 +148,12 @@ a:active {
 
 .rus:active {
     color: #ddb333;
-    transition: 1s;
+    
+}
+
+.rus.selected {
+    color: #bdae82;
+    
 }
 
 .eng {
@@ -175,8 +180,15 @@ a:active {
 
 .eng:active {
     color: #ddb333;
-    transition: 1s;
+   
 }
+
+.eng.selected{
+    color: #bdae82;
+    
+}
+
+
 .li2 {
     padding: 0px 30px 0px 0px;
     cursor: pointer;
