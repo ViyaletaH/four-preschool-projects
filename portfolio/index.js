@@ -5,16 +5,19 @@ const b = document.querySelector('.nav')
 const c = document.querySelector('.line1')
 const d = document.querySelector('.line2')
 const f = document.querySelector('.line3')
+const k = document.querySelector('.hov')
+const v = document.querySelector('.logo')
+const w = document.querySelector('.light')
 
 a.addEventListener('click', () => {
-    b.classList.toggle('open') + c.classList.toggle('open') + d.classList.toggle('open') + f.classList.toggle('open') + a.classList.toggle('open')
+    b.classList.toggle('open') + a.classList.toggle('open') + w.classList.toggle('open') + c.classList.toggle('open') + d.classList.toggle('open') + f.classList.toggle('open') + v.classList.toggle('open') + k.classList.toggle('open')     
 })
 
 
 const e = document.querySelector('.navigation')
 
 e.addEventListener('click', () => {
-   b.classList.remove('open') + c.classList.remove('open') + d.classList.remove('open') + f.classList.remove('open') + a.classList.remove('open')
+   b.classList.remove('open') + c.classList.remove('open') + d.classList.remove('open') + k.classList.toggle('open') + v.classList.toggle('open') + w.classList.toggle('open') + f.classList.remove('open') + a.classList.remove('open')
    
 })
 
@@ -207,3 +210,19 @@ light.addEventListener('click', () => {
 arr.forEach((function(item) {
     item.classList.toggle('light-theme')
 }))})
+
+
+const n = document.querySelector('.nav')
+
+light.addEventListener('click', () => {
+    n.classList.toggle('light-theme') 
+})
+const m = document.querySelector('.navigation')
+const h = document.getElementById('liskills')
+const g = document.getElementById('liportfolio')
+const u = document.getElementById('livideo')
+const y = document.getElementById('liprice')
+const x = document.getElementById('contactsli')
+light.addEventListener('click', () => {
+     m.classList.toggle('light-theme') + h.classList.toggle('light-theme') + g.classList.toggle('light-theme') + u.classList.toggle('light-theme') + y.classList.toggle('light-theme') + x.classList.toggle('light-theme') 
+})
