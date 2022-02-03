@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio-player</title>
     <link rel="icon" href="assets/flame.ico.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <style>
         body {
-        background-color: transparent;
         background-size: 100%;
         -moz-background-size: 100%; 
         -webkit-background-size: 100%; 
@@ -23,16 +25,20 @@
         <div class="player-main">
             <div class="bg"><img src="assets/img/Girugamesh.jpg" id="gir-bg"></div>
             <div class="player-functional">
-                <div class="play"><img src="" onclick="playOrStop()" id="play-stop"></div>
+                <div class="play"><img src="assets/png/play.png" onclick="playOrStop()" id="play-stop"></div>
                 <div class="artist-song">
                     <div class="artist">Girugamesh</div>
                     <div class="song">Evolution</div>
                 </div>
-                <img src="" onclick="next()" id="next">
-                <img src="" onclick="back()" id="back">
-                <div class="durationTime"></div>
-                <input type="range" id="play-bar" min="0" max=" " value="0" onchange="changePlayBar()">
-                <div class="currentTime"></div>                
+                <div class="next-prev">
+                    <img src="assets/png/forward.png" onclick="next()" id="next">
+                    <img src="assets/png/backward.png" onclick="back()" id="back">
+                </div>
+                <div class="bar">
+                    <div class="durationTime">03:56</div>
+                    <input type="range" id="play-bar" min="0" max=" " value="0" onchange="changePlayBar()">
+                    <div class="currentTime">0:00</div>
+                </div>                
             </div>
         </div>
     </div>
