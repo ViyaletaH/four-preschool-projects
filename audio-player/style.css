@@ -1,14 +1,31 @@
 * {
     box-sizing: border-box;
+    
 }
 
-html,body{
+a {
+    text-decoration: none;
+    color: crimson;
+}
+/* html,body{
     margin:0;
     padding:0;
+    height: 100%;
+    z-index: -100;
+} */
+
+html, main {
+    height: 95%;
 }
 
 .backgrd {
     margin: 0;
+    overflow: hidden;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
 } 
 
 .player-main {
@@ -26,11 +43,12 @@ html,body{
     border-radius: 10px;
     box-shadow: 0 0 20px #82d11b;
     overflow: hidden;
+    z-index: 10;
 }
 
 .bg {
     width: 100%;
-    height: 70%;
+    height: 69%;
     align-content: center;
 }
 #gir-bg {
@@ -40,7 +58,6 @@ html,body{
 .player-functional {
     width: 100%;
     min-height: 30%;
-    background: -webkit-linear-gradient(deg, rgb(75, 15, 67) 70px, rgb(130, 209, 27));
     background-image: -webkit-linear-gradient(45deg, rgb(75, 15, 67), rgb(130, 209, 27));
     color: #92ff05;
     padding-top: 6px;
@@ -55,26 +72,22 @@ html,body{
 }
 
 .player-functional:link {
-    background: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     background-image: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     color: #82d11b;
     transition: 2s;      
 }
 .player-functional:visited {
-    background: -webkit-linear-gradient(45deg, rgb(75, 15, 67), rgb(130, 209, 27));
     background-image: -webkit-linear-gradient(45deg, rgb(75, 15, 67), rgb(130, 209, 27));
     color: #82d11b;
     transition: 2s;      
 }
 
 .eng:focus {
-    background: -webkit-linear-gradient(45deg, rgb(75, 15, 67), rgb(130, 209, 27));
     background-image: -webkit-linear-gradient(45deg, rgb(75, 15, 67), rgb(130, 209, 27));
     color: #82d11b;
     transition: 2s;
 }
 .player-functional:hover {
-    background: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     background-image: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     color: #4B0F43;
     transition: 2s;
@@ -82,7 +95,6 @@ html,body{
 }
 
 .player-functional:active {
-    background: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     background-image: -webkit-linear-gradient(45deg, rgb(15, 75, 72), rgb(159, 255, 32));
     color: #4B0F43;
     transition: 2s;
@@ -93,9 +105,11 @@ html,body{
     width: 50px;
     height: 50px;
     margin-left: 5px;
+    transition: 2s;
+    cursor: pointer;
 }
 
-#play-stop {
+#playStop {
     width: 50px;
     height: 50px;
     filter: invert(1);
@@ -107,14 +121,14 @@ html,body{
     font-family: 'Rowdies', serif;
     margin-left: 5%;
     margin-right: 5%;
-    /* border: 1px solid black; */
+    
 }
 
 .artist {
    
     font-size: 20px;
     font-weight: 700;
-    /* border: 1px solid black; */
+   
 }
 
 
@@ -122,7 +136,7 @@ html,body{
     
     font-size: 15px;
     font-weight: 300;
-    /* border: 1px solid black; */
+   
     
 }
 
@@ -132,7 +146,7 @@ html,body{
     flex-wrap: wrap;
     max-width: 25px;
     margin-left: 12px;
-    /* border: 1px solid black; */
+    
 }
 #next {
     width: 25px;
@@ -179,4 +193,31 @@ html,body{
     color: #82d11b;
     padding: 3px;
     margin-bottom: 3px;
+}
+
+.footer {
+    background-color: transparent;
+    min-width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.year-git {
+    text-align: center;
+    display: flex;
+    margin-right: 7%;
+    
+}
+
+.copyright {
+    margin-right: 10%;
+        
+}
+
+.year {
+    margin-right: 40%;
 }
