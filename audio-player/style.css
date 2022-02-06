@@ -390,7 +390,12 @@ html, footer {
 .button:active {
     transform: scaleY(1.1) translateY(-20px);
 }
-
+.button.off {
+    position: absolute;
+    right: -300px;
+    z-index: -999;
+    
+}
 .poster_video  {
     position: absolute;
     top: 0;
@@ -403,9 +408,3 @@ html, footer {
     z-index: -999;
 }
 
-.button.off {
-    position: relative;
-    right: -300px;
-    z-index: -999;
-    
-}

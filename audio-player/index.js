@@ -29,7 +29,7 @@ next.addEventListener('click', () => {
     main.classList.add('lotl');
     current.classList.add('lotl');
     duration.classList.add('lotl');
-    button.classList.add('.off');
+    button.classList.add('off');
 })
 
 
@@ -45,7 +45,7 @@ back.addEventListener('click', () => {
     main.classList.remove('lotl');
     current.classList.remove('lotl');
     duration.classList.remove('lotl');
-    button.classList.remove('.off');
+    button.classList.remove('off');
 })
 
 function playOrStop() {
