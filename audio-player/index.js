@@ -13,10 +13,15 @@ const player = document.querySelector('.player-functional');
 const main = document.querySelector('.player-main');
 const current = document.querySelector('.currentTime');
 const duration = document.querySelector('.durationTime');
+const poster = document.querySelector('.poster_video');
+const video = document.querySelector('.bg_video');
+const button = document.querySelector('.button');
 
 next.addEventListener('click', () => {
     document.getElementById("gir-bg").src="assets/img/lotl.jpg";
     document.getElementById("audio").src="assets/audio/Haythor.mp3";
+    document.querySelector('.bg_video').src="assets/video/haythor.webm";
+    document.querySelector('.poster_video').src="assets/video/trimmed.mp4";
     artist.textContent = 'LOTL';
     songName.textContent = 'Haythor';
     track.classList.add('lotl');
@@ -24,12 +29,15 @@ next.addEventListener('click', () => {
     main.classList.add('lotl');
     current.classList.add('lotl');
     duration.classList.add('lotl');
+    button.classList.add('.off');
 })
 
 
 back.addEventListener('click', () => {
     document.getElementById("gir-bg").src="assets/img/girugamesh.jpg";
     document.getElementById("audio").src="assets/audio/Evolution.mp3";
+    document.querySelector('.bg_video').src="assets/video/evolution.mp4";
+    document.querySelector('.poster_video').src="assets/video/short.mp4";
     artist.textContent = 'Girugamesh';
     songName.textContent = 'Evolution';
     track.classList.remove('lotl');
@@ -37,12 +45,15 @@ back.addEventListener('click', () => {
     main.classList.remove('lotl');
     current.classList.remove('lotl');
     duration.classList.remove('lotl');
+    button.classList.remove('.off');
 })
 
 function playOrStop() {
     if (count == 0) {
         count = 1;
         audio.play();
+        video.play();
+        poster.classList.toggle('hide');
         document.getElementById("playStop").src="assets/png/pause.png";
     
     }
@@ -50,6 +61,8 @@ function playOrStop() {
     else {
         count = 0;
         audio.pause();
+        video.pause();
+        poster.classList.toggle('hide');
         document.getElementById("playStop").src="assets/png/play.png";
   
     }
@@ -98,6 +111,7 @@ audio.addEventListener('ended', () =>  {
     progress.value  = 0;
     count = 0;
     track.classList.remove('anime');
+    poster.classList.remove('hide');
     document.getElementById("playStop").src="assets/png/play.png";
 })
 

@@ -35,6 +35,7 @@ html, main {
     height: 100%;
     width: 100%;
     position:fixed;
+    background-color: #000000;
        
 } 
 
@@ -42,7 +43,7 @@ html, main {
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     height: 100%;
    z-index: -10;
 }
@@ -310,7 +311,7 @@ html, footer {
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
-  
+    position: fixed;
     
     
 }
@@ -388,4 +389,23 @@ html, footer {
 
 .button:active {
     transform: scaleY(1.1) translateY(-20px);
+}
+
+.poster_video  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.poster_video.hide {
+    z-index: -999;
+}
+
+.button.off {
+    position: relative;
+    right: -300px;
+    z-index: -999;
+    
 }
