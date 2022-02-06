@@ -68,6 +68,21 @@ function playOrStop() {
     }
 }
 
+next.addEventListener('click', () => {
+    if (track.classList.contains('anime')){
+        track.classList.remove('anime')
+        playOrStop()
+    }
+})
+
+back.addEventListener('click', () => {
+    if (track.classList.contains('anime')){
+        track.classList.remove('anime')
+        playOrStop()
+    }
+})
+
+
 play.addEventListener('click', playOrStop);
 play.addEventListener('click', () => {
     track.classList.toggle('anime') 
