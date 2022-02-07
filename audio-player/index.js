@@ -146,7 +146,7 @@ audio.addEventListener('timeupdate', () => {
     
         progress.value = audio.currentTime / audio.duration * 100;
         currentTime.textContent = time(audio.currentTime);
-        durationTime.textContent = time(audio.duration - audio.currentTime);
+        durationTime.textContent = time(audio.duration);
     
 })
 
