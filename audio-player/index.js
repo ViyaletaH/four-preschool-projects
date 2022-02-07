@@ -1,4 +1,4 @@
-const text1 = "Goddess of the void\n Goddess of the void\n  Goddess of the void\n Goddess of the void \n Down here in the pit\n  Where only blind eyes see\n  My compass is the heart\n  And sheer brutality\n  It's the primitive in man\n  That is taking control\n  In the season of the haythor\n  Reversal of the pole\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void\n  Out here in the fields\n  Where only instincts dwell\n  On the quest to find my fellow\n   I'm sensating your smell\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite the core\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite the core\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite, reunite the core\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void."
+const text1 = "Goddess of the void\n Goddess of the void\n  Goddess of the void\n Goddess of the void \n Down here in the pit\nWhere only blind eyes see\nMy compass is the heart\n  And sheer brutality\n  It's the primitive in man\n  That is taking control\n  In the season of the haythor\n  Reversal of the pole\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void\n  Out here in the fields\n  Where only instincts dwell\n  On the quest to find my fellow\n   I'm sensating your smell\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite the core\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite the core\n  Through the forest of the coming\n  And the planes of the before\n  In the night of the apocalypse\n  We reunite, reunite the core\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Darling, your eyes were full of darkness\n  Now someone else holds what was mine\n  Darling, your womb gave birth to stars and light\n  Now there is hollowness inside and emptiness behind\n  Goddess of the void\n  Goddess of the void."
 const text2 ="Listen to my evolution!!\n  Listen to my evolution!!\n  Listen to my evolution!!\n  Listen to my evolution!!\n  (Ready Go)(Let me go)\n  Continuously searching\n  (Ready Go)(Let me go)\n  the outcome is this style\n  (Ready Go)(Let me go)\n  bring it on, here we go\n  (Ready Go)(Let me go)\n  The tower dispatches noiz\n  (Ready Go)(Let me go)\n  catch our words\n  Listen to my evolution!!\n  Listen to my evolution!!\n  No way, win the day\n  No way, I win the day\n  I dont care what anyone tells me\n  No way, win the day\n  No way, I win the day\n  it doesnt matter what I sacrifice to make this happen\n  Let go of this moment\n  (Ready Go)(Let me go)\n  Time is limited\n  (Ready Go)(Let me go)\n write off the changing days\n (Ready Go)(Let me go)\n Only 1 day?\n (Ready Go)(Let me go)\n Dont make me laugh!\n (Ready Go)(Let me go)\n I'm after no.1\n Listen to my evolution!!\n Listen to my evolution!!\n No way, win the day\n No way, I win the day\n Living through without control without worry\n No way, win the day\n No way, I win the day\n Risking everything, grant me my wish\n Listen to my evolution!!\n Listen to my evolution!!\n Listen to my evolution!!\n Listen to my evolution!!\n No concern about the rest, bring up the voltage\n All for one, right now!\n Revolution!\n (Ready Go)(Let me go)\n Continuously searching\n (Ready Go)(Let me go)\n the outcome is this style\n (Ready Go)(Let me go)\n bring it on, here we go!\n Listen to my evolution!!\n Listen to my evolution!!\n No way, win the day\n No way, I win the day\n I dont care what anyone tells me\n No way, win the day\n No way, I win the day\n It doesnt matter what I sacrifice to make this happen\n Let go of this moment."
 const play = document.querySelector('.play');
 const artist = document.querySelector('.artist');
@@ -20,7 +20,8 @@ const video = document.querySelector('.bg_video');
 const button = document.querySelector('.button');
 const text = document.querySelector('.text');
 const view = document.querySelector('.view');
-const side = document.querySelector('.side');
+const triangle = document.getElementById('triangle');
+
 
 view.addEventListener('click', () => {
     text.classList.toggle('out');
@@ -41,6 +42,8 @@ next.addEventListener('click', function lotl() {
     duration.classList.add('lotl');
     button.classList.add('off');
     text.classList.add('lotl');
+    view.classList.add('lotl');
+    triangle.classList.add('lotl');
     text.textContent = text1;
     if (text.classList.contains('out')){
         text.classList.remove('out')
@@ -64,6 +67,8 @@ back.addEventListener('click', function girugamesh() {
     duration.classList.remove('lotl');
     button.classList.remove('off');
     text.classList.remove('lotl');
+    view.classList.remove('lotl');
+    triangle.classList.remove('lotl');
     text.textContent = text2;
     if (text.classList.contains('out')){
         text.classList.remove('out')
