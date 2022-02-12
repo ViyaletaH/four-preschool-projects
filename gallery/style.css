@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 5px solid #ff7300;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-left {
+    font-size: 32px;
+    margin: 10px 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.searcher {
+    margin-right: 5%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    position: relative;
+    width: 350px;
+    min-height: 35px;
+    max-height: 35px;
+    position: relative;
+        
+}
+
+.fa-camera:before {
+    color:#ff7300;
+    content: "\f030";
+}
+
+.searcher-itself {
+    font-size: 15px;
+    width: 100%;
+    min-height: 35px;
+    border-radius: 25px;
+    outline: none;
+    border: solid 5px #DDDDDD;
+    padding-left: 3px;
+    position: relative;
+    
+    
+}
+
+.searcher-itself i {
+    font-weight: 900;
+    position: absolute;
+    transition: 1s;
+    height: 16px;
+    width: 16px;
+    z-index: 4;
+}
+
+.glass {
+    position: absolute;
+    z-index: 100;
+    margin: auto;
+    right:  5%;
+    top: 25%;
+    left: 90%;
+}
+
+.glass:hover {
+    color: #000000;
+}
+
+.fa-magnifying-glass:before {
+    color: #ff7300;
+    content: "\f002";
+    cursor: pointer;
+}
+.image-container  {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
+}
