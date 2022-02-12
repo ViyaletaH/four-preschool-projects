@@ -57,7 +57,7 @@ header {
     border-radius: 25px;
     outline: none;
     border: solid 5px #DDDDDD;
-    padding-left: 3px;
+    padding: 5px;
     position: relative;
     
     
@@ -81,15 +81,30 @@ header {
     left: 90%;
 }
 
-.glass:hover {
-    color: #000000;
-}
 
-.fa-magnifying-glass:before {
+.fa-magnifying-glass {
     color: #ff7300;
     content: "\f002";
     cursor: pointer;
 }
+
+.fa-magnifying-glass:link {
+    color: #ff7300;
+}
+
+.fa-magnifying-glass:focus {
+    color: #000000;
+    background-color: #bdae82;
+} 
+
+.fa-magnifying-glass:hover {
+    color: #000000;
+}
+
+.fa-magnifying-glass:active {
+    color: #ffe600;
+}
+
 .image-container  {
     width: 1280px;
     margin: auto;
