@@ -7,6 +7,8 @@ const glass = document.querySelector(".glass");
 const close = document.querySelector(".close");
 const mao = document.querySelector(".mao");
 const back = document.querySelector('.back');
+const carD = document.querySelector('.card');
+const main = document.querySelector('main');
 
 getData(basicUrl);
 async function getData(url) {
@@ -31,8 +33,30 @@ function photoCards(data) {
     card.classList.add("card");
     card.innerHTML = `<img src="${results.urls.regular}">`;
     photos.appendChild(card);
+    
+    card.addEventListener('click', () => {
+        const cardOpen = document.createElement('div');
+        cardOpen.classList.add('cardOpen');
+        cardOpen.innerHTML = card.innerHTML;
+        main.appendChild(cardOpen);
+
+        if (main.contains(cardOpen)) {
+            const darkenedCover = document.createElement('div');
+            darkenedCover.classList.add('darkenedCover');
+            main.appendChild(darkenedCover);
+
+            darkenedCover.addEventListener('click', () => {
+                darkenedCover.classList.add('close');
+                main.removeChild(cardOpen);
+
+            })
+        }
+        
+    })
   });
 }
+
+
 
 search.addEventListener("submit", (el) => {
   el.preventDefault();
@@ -45,8 +69,10 @@ search.addEventListener("submit", (el) => {
   if (searcher.value == 'america' || searcher.value == 'America' ||  searcher.value == 'AMERICA' || searcher.value == 'New York' || searcher.value == 'new york' || searcher.value == "'america'") {
     mao.classList.add('force');
     back.classList.add('enable');
+    } 
+    else {
+        document.querySelector('.music').innerHTML = '';
     }
-  
 });
 
 back.addEventListener('click', () => {
