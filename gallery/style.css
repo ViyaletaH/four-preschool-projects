@@ -16,6 +16,8 @@ body {
 
 header {
     border-bottom: 5px solid #ff7300;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -49,8 +51,8 @@ a {
 
 .header-left {
     font-size: 32px;
-    margin: 10px 0;
-    padding: 20px;
+    /* margin: 10px 0; */
+    padding-left: 20px;
     justify-content: center;
 }
 
@@ -96,6 +98,44 @@ a {
     z-index: 4;
 }
 
+.close {
+    position: absolute;
+    z-index: 100;
+    margin: auto;
+    right:  5%;
+    top: 25%;
+    left: 85%;
+    z-index: -100;
+    
+}
+
+.close.active  {
+    z-index: 100;
+}
+
+.fa-xmark {
+    color: #ff7300;
+    content: "\f002";
+    cursor: pointer;
+}
+
+.fa-xmark:link {
+    color: #ff7300;
+}
+
+.fa-xmark:focus {
+    color: #000000;
+    
+} 
+
+.fa-xmark:hover {
+    color: #000000;
+    transition: 1s;
+}
+
+.fa-xmark:active {
+    color: #ffe600;
+}
 
 .glass {
     position: absolute;
@@ -104,6 +144,7 @@ a {
     right:  5%;
     top: 25%;
     left: 90%;
+    
 }
 
 
@@ -124,6 +165,7 @@ a {
 
 .fa-magnifying-glass:hover {
     color: #000000;
+    transition: 1s;
 }
 
 .fa-magnifying-glass:active {
@@ -149,6 +191,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 .footer {
@@ -186,6 +229,7 @@ img {
 
 .rolling {
     z-index: 4;
+    padding-top: 7px;
     margin-right: 75%;
     background-color: transparent;
 }
@@ -206,4 +250,5 @@ img {
 .card {
     height: 200px;
     width: 250px;
+    margin-bottom: 15px;
 }

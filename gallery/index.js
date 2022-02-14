@@ -1,8 +1,8 @@
-const basicUrl =
-  "https://api.unsplash.com/search/photos?query=mao&client_id=6adFL1um8JXRIrgsfChxvwqAc_f1MVYZKe5lOBtuSek";
+const basicUrl =  "https://api.unsplash.com/search/photos?query=mao&client_id=6adFL1um8JXRIrgsfChxvwqAc_f1MVYZKe5lOBtuSek";
 const search = document.querySelector("form");
 const searcher = document.querySelector(".searcherItself");
 const glass = document.querySelector(".glass");
+const close = document.querySelector('.close');
 
 getData(basicUrl);
 async function getData(url) {
@@ -37,13 +37,18 @@ search.addEventListener("submit", (el) => {
     searcher.value +
     "&client_id=6adFL1um8JXRIrgsfChxvwqAc_f1MVYZKe5lOBtuSek";
   getData(searchContent);
+  close.classList.add('active');
+  
 });
 
 glass.addEventListener("click", () => {
   el.preventDefault();
-  const searchContent =
-    "https://api.unsplash.com/search/photos?query=" +
-    searcher.value +
-    "&client_id=6adFL1um8JXRIrgsfChxvwqAc_f1MVYZKe5lOBtuSek";
+  
   getData(searchContent);
+  close.classList.add('active');
 });
+
+close.addEventListener("click", () => {
+    searcher.value  = "";
+    close.classList.remove('active');
+})
