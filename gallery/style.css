@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
 }
 
 html {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
     height: 100%;
 }
 
@@ -31,8 +29,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 
 }
 
@@ -47,6 +44,7 @@ a {
 .header-wrapper {
     display: flex;
     justify-content: center;
+    max-height: 150px;
 }
 
 .header-left {
@@ -74,7 +72,7 @@ a {
     content: "\f030";
 }
 
-.searcher-itself {
+.searcherItself {
     font-size: 15px;
     width: 100%;
     min-height: 35px;
@@ -87,14 +85,17 @@ a {
     
 }
 
-.searcher-itself i {
+.searcherItself i {
     font-weight: 900;
     position: absolute;
     transition: 1s;
     height: 16px;
     width: 16px;
+    border-radius: 25px;
+    outline: none;
     z-index: 4;
 }
+
 
 .glass {
     position: absolute;
@@ -118,7 +119,7 @@ a {
 
 .fa-magnifying-glass:focus {
     color: #000000;
-    background-color: #bdae82;
+    
 } 
 
 .fa-magnifying-glass:hover {
@@ -140,6 +141,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding: 2%;
+    overflow: auto;
     
 }
 
@@ -157,7 +159,7 @@ img {
     padding-left: 4%;
     padding-right: 10%;
     align-items: center;
-    z-index: 4;
+    
    
           
 }
@@ -183,8 +185,9 @@ img {
 }
 
 .rolling {
-    
+    z-index: 4;
     margin-right: 75%;
+    background-color: transparent;
 }
 
 #rs {
