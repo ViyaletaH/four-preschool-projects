@@ -16,9 +16,7 @@ async function getData(url) {
     headers: {
       Authorization: "Client-ID 6adFL1um8JXRIrgsfChxvwqAc_f1MVYZKe5lOBtuSek",
     },
-    // parameters: {
-    //     per_page = 30,
-    // },
+    
   });
   const data = await res.json();
   photoCards(data);
@@ -46,7 +44,7 @@ function photoCards(data) {
             main.appendChild(darkenedCover);
 
             darkenedCover.addEventListener('click', () => {
-                darkenedCover.classList.add('close');
+                main.removeChild(darkenedCover);
                 main.removeChild(cardOpen);
 
             })

@@ -41,6 +41,7 @@ a {
     font-size: 13px;
     font-weight: 600;
     color: #ffffff;
+    
 }
 
 .header-wrapper {
@@ -125,7 +126,7 @@ h2 {
 }
 
 .close.active  {
-    z-index: 100;
+    z-index: 89;
 }
 
 .fa-xmark {
@@ -154,7 +155,7 @@ h2 {
 
 .glass {
     position: absolute;
-    z-index: 100;
+    z-index: 89;
     margin: auto;
     right:  5%;
     top: 25%;
@@ -218,9 +219,8 @@ img {
     padding-left: 4%;
     padding-right: 10%;
     align-items: center;
-    
    
-          
+             
 }
 
 .year-git {
@@ -231,6 +231,7 @@ img {
     font-size: 13px;
     justify-content: center;
     color: #ffffff;
+    
     
 }
 
@@ -254,6 +255,7 @@ img {
     height: 40px;
     filter: invert(1);
     cursor: pointer;
+   
 }
 
 
@@ -312,6 +314,7 @@ img {
     height: 50%;
     width: 50%;
     object-fit: contain;
+    box-shadow: 5px 5px 20px #ffe600, -5px -5px 20px #ffe600;
 }
 
 .darkenedCover {
