@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+html {
+    
+    height: 100%;
+}
+
+body {
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-color: rgb(219, 214, 214);
+    margin: 0;
+} 
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000;
+}
+
+main {
+    height: 75%;
+    width: 100%;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+}
+.wrapper-main {
+    background-color:rgb(219, 214, 214);
+    margin: 0;
+    
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Creepster', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Black Ops One', sans-serif;
+    font-weight: 100;
+    margin-left: 17%;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 65px;
+    margin-top: 30px;
+    color: rgb(201, 10, 10);
+    -webkit-text-stroke: 1px  #000000;
+
+}
+
+.gameplay-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    padding-left: 25%;
+    padding-right: 24%;
+}
+
+.gameplay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 15%;
+    padding-right: 15%;
+}
+.footer {
+    background-color: transparent;
+    min-width: 100%;
+    height: 10%;
+    display: flex;
+    padding-left: 4%;
+    padding-right: 10%;
+    align-items: center;
+               
+}
+
+.year-git {
+    text-align: center;
+    display: flex;
+    margin-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    color: #000000;
+       
+}
+
+.copyright {
+    margin-right: 10%;
+        
+}
+
+.year {
+    margin-right: 40%;
+}
+
+.rolling {
+    z-index: 4;
+    padding-top: 7px;
+    margin-right: 75%;
+    background-color: transparent;
+    min-height: 40px;
+    min-width: 150px;
+}
+
+#rs {
+    height: 60px;
+    cursor: pointer;
+}
