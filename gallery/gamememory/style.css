@@ -88,7 +88,9 @@ footer {
     padding-left: 25%;
     padding-right: 24%;
     min-width: 800px;
-   
+    padding-bottom: 2%;
+    z-index: 87;
+    padding-top: 2%;
 }
 
 .gameplay {
@@ -98,6 +100,15 @@ footer {
     justify-content: space-evenly;
     margin: 0;
     min-width: 800px;
+    opacity: 0;
+    transition: 3s;
+    
+    
+}
+
+.gameplay.open {
+    opacity: 1;
+    transition: 3s;
 }
 
 .card {
@@ -106,7 +117,7 @@ footer {
     position: relative;
     display: block;
     object-fit: cover;
-    
+       
 }
 
 img {
@@ -116,6 +127,122 @@ img {
     padding-right: 15%;
     border-radius: 32px;
     cursor: pointer;
+    z-index: 90;
+    position: absolute;
+    transition: 2s;
+}
+
+img.open {
+    transform: rotateY(180deg);
+    padding-right: 15%;
+    z-index: -90;
+}
+
+.two {
+    height: 170px;
+    width: 170px;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    border-radius: 32px;
+    cursor: pointer;
+    z-index: -90;
+    transition: 2s;
+}
+
+.two.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.play-again {
+    z-index: 100;
+    border: solid 1px #000000;
+    height: 100px;
+    width: 250px;
+    margin-right: 12%;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    -webkit-text-stroke: 1px  #000000;
+    background-color: #646464;
+    font-size: 40px;
+    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    cursor: pointer;
+    opacity: 1;
+    transition: 2s;
+}
+
+.records {
+    z-index: 100;
+    border: solid 1px #000000;
+    height: 100px;
+    width: 250px;
+    margin-right: 12%;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    -webkit-text-stroke: 1px  #000000;
+    background-color: #646464;
+    font-size: 40px;
+    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    cursor: pointer;
+    opacity: 1;
+    transition: 2s;
+}
+
+.button {
+    z-index: 100;
+    border: solid 1px #000000;
+    height: 100px;
+    width: 250px;
+    margin-right: 12%;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    -webkit-text-stroke: 1px  #000000;
+    background-color: #646464;
+    font-size: 40px;
+    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    cursor: pointer;
+    opacity: 1;
+    transition: 2s;
+}
+
+.button.clicked {
+    box-shadow: inset 3px 3px 3px 3px rgb(0, 0, 0);
+    opacity: 0;
+    z-index: -100;
+    cursor: default;
+}
+
+.button-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+}
+
+.button-container.clicked {
+    z-index: -100;
 }
 .footer {
     background-color: transparent;
@@ -125,6 +252,7 @@ img {
     padding-left: 4%;
     padding-right: 10%;
     align-items: center;
+    
     
                
 }
@@ -156,6 +284,7 @@ img {
     background-color: transparent;
     min-height: 40px;
     min-width: 150px;
+    position: relative;
 }
 
 #rs {
