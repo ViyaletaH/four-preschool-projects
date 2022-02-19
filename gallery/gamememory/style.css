@@ -138,7 +138,14 @@ img.open {
     z-index: -90;
 }
 
-.two {
+.img1.open {
+    transform: rotateY(180deg);
+    padding-right: 15%;
+    z-index: -90;
+}
+
+
+.brendamin, .couplemin, .jeffreymin, .tedmin, .slivkomin, .aileenmin, .sadamin, .mansonmin, .edmin, .zodiacmin {
     height: 170px;
     width: 170px;
     padding-bottom: 15%;
@@ -149,7 +156,87 @@ img.open {
     transition: 2s;
 }
 
-.two.open {
+.brendamin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.aileenmin.open  {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.sadamin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.mansonmin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+.edmin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.zodiacmin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.couplemin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.jeffreymin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.tedmin.open {
+    transform: rotateY(180deg);
+    z-index: 90;
+    padding-right: 15%;
+    padding-left: 0;
+    position: relative;
+
+}
+
+.slivkomin.open {
     transform: rotateY(180deg);
     z-index: 90;
     padding-right: 15%;
