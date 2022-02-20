@@ -18,8 +18,7 @@ body {
     height: 100vh;
     margin: auto;
     max-width: 1200px;
-    /* display: block;
-    background-image: url(assets/img/wp6085224.jpg); */
+    
 } 
 
 a {
@@ -109,6 +108,7 @@ footer {
 .gameplay.open {
     opacity: 1;
     transition: 3s;
+    perspective: 1000px;
 }
 
 .card {
@@ -117,10 +117,14 @@ footer {
     position: relative;
     display: block;
     object-fit: cover;
-       
+    transform-style: preserve-3d; 
+    transition: 1s;  
 }
 
-img {
+.card.open {
+    transform: rotateY(180deg);
+}
+.cover {
     height: 170px;
     width: 170px;
     padding-bottom: 15%;
@@ -130,22 +134,10 @@ img {
     z-index: 90;
     position: absolute;
     transition: 2s;
+    backface-visibility: hidden;
 }
 
-img.open {
-    transform: rotateY(180deg);
-    padding-right: 15%;
-    z-index: -90;
-}
-
-.img1.open {
-    transform: rotateY(180deg);
-    padding-right: 15%;
-    z-index: -90;
-}
-
-
-.brendamin, .couplemin, .jeffreymin, .tedmin, .slivkomin, .aileenmin, .sadamin, .mansonmin, .edmin, .zodiacmin {
+.killer {
     height: 170px;
     width: 170px;
     padding-bottom: 15%;
@@ -154,100 +146,19 @@ img.open {
     cursor: pointer;
     z-index: -90;
     transition: 2s;
+    position: absolute;
+    backface-visibility: hidden;
 }
 
-.brendamin.open {
+.killer {
     transform: rotateY(180deg);
     z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.aileenmin.open  {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.sadamin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.mansonmin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-.edmin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.zodiacmin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.couplemin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.jeffreymin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.tedmin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
-}
-
-.slivkomin.open {
-    transform: rotateY(180deg);
-    z-index: 90;
-    padding-right: 15%;
-    padding-left: 0;
-    position: relative;
-
 }
 
 .main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
