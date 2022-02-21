@@ -31,7 +31,7 @@ a {
 }
 
 main {
-    height: 75%;
+    height: 85%;
     width: 100%;
 }
 
@@ -173,15 +173,15 @@ footer {
 .play-again {
     z-index: -100;
     border: solid 1px #000000;
-    height: 100px;
-    width: 250px;
+    height: 80px;
+    width: 150px;
     margin-top: 5%;
     border-radius: 25px;
     font-family: 'Black Ops One', sans-serif;
     color: rgb(201, 10, 10);
     -webkit-text-stroke: 1px  #000000;
     background-color: #646464;
-    font-size: 40px;
+    font-size: 25px;
     box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
     cursor: default;
     opacity: 0;
@@ -338,4 +338,10 @@ footer {
 #rs {
     height: 30px;
     cursor: pointer;
+}
+
+.music {
+    z-index: -100;
+    position: absolute;
+    visibility: hidden;
 }
