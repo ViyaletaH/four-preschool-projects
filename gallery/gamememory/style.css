@@ -170,6 +170,155 @@ footer {
     
 }
 
+.arrow {
+    filter: invert(1);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+.aileen {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.brenda {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.zodiac {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.sada {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.myra {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.slivko {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.charles {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.ed {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.jeff {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.ted {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.random-facts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 100%;
+    z-index: -100;
+    padding: 5%;
+    margin-bottom: 10%;
+    border: solid 1px #000000;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    background-color: #646464;
+    font-size: 25px;
+    box-shadow: inset 3px 3px 3px 3px rgb(53, 53, 53), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    opacity: 0;
+    transition: 2s;
+    position: relative;
+}
+
+.random-facts.open {
+    opacity: 1;
+    z-index: 100;
+    
+}
+
+.facts-themselves {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 100%;
+    max-height: 380px;
+    margin-left: 35%;
+    padding: 1%;
+    z-index: 70;
+    border: solid 1px #000000;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px  #992121;
+    background-color: #646464;
+    font-size: 15px;
+    box-shadow: inset 3px 3px 3px 3px rgb(53, 53, 53), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    opacity: 0;
+    transition: 2s;
+    position: absolute;
+}
+
+.facts-themselves.open {
+    opacity: 1;
+    
+}
+
+
 .win {
     width: 250px;
     height: 70px;
@@ -290,16 +439,17 @@ footer {
 
 .another-buttons-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-    right: -200px;
     width: 100%;
     min-width: 250px;
     height: 100%;
+    max-height: 550px;
     z-index: -100;
     position: absolute;
     padding-left: 10%;
+    margin-top: 10%;
     
 }
 
