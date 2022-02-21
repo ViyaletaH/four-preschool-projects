@@ -103,7 +103,7 @@ function randomPrise() {
     link.innerHTML = `<a href="${rand}"> here</a>`;
     win.appendChild(link);
     var counter = document.querySelector('.counter');
-    container.classList.add('open');
+    counter.classList.add('open');
 }
 
 function countUp() {
