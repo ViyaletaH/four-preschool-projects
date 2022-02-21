@@ -472,6 +472,8 @@ footer {
     padding-left: 4%;
     padding-right: 10%;
     align-items: center;
+    position: relative;
+    z-index: 100;
     
     
                
