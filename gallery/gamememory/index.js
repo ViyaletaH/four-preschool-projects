@@ -8,6 +8,7 @@ let turned = false;
 let killerOne, killerTwo;
 let block = false;
 let count = [];
+var countSteps = 0; 
 
 const records = document.querySelector('.records');
 const container =  document.querySelector('.another-buttons-container');
@@ -67,6 +68,7 @@ function mix() {
             reset.classList.add('open');
             count.length = 0;
             container.classList.add('open');
+            randomPrise();
         }
     }
 
@@ -87,3 +89,28 @@ reset.addEventListener('click', () => {
        
 })
 
+function randomPrise() {
+    let a = 'https://www.youtube.com/watch?v=08dpnn0cd10&t=2293s'; 
+    let b ='https://www.youtube.com/watch?v=1_KpxSjwzM4';
+    let c ='https://www.youtube.com/watch?v=3YLh1-mCIpU';
+    let d = 'https://www.youtube.com/watch?v=hnuSl8PNYqc';
+    const wins = [];
+    wins.push(a, b, c, d);
+    var rand = wins[Math.floor(Math.random() * wins.length)];
+    var win = document.querySelector('.win');
+    win.classList.add('open');
+    var link = document.createElement('a');
+    link.innerHTML = `<a href="${rand}"> here</a>`;
+    win.appendChild(link);
+    var counter = document.querySelector('.counter');
+    container.classList.add('open');
+}
+
+function countUp() {
+    updateCount(++countSteps);
+    
+}
+
+function updateCount() {
+    document.getElementById('counter-display').innerText= countSteps;
+}

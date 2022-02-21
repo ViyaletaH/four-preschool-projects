@@ -170,12 +170,57 @@ footer {
     
 }
 
+.win {
+    width: 250px;
+    height: 70px;
+    z-index: 100;
+    padding: 1.5%;
+    margin-bottom: 10%;
+    border: solid 1px #000000;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    background-color: #646464;
+    font-size: 15px;
+    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    opacity: 0;
+    transition: 2s;
+}
+
+.win.open {
+    opacity: 1;
+    
+}
+
+.counter {
+    width: 250px;
+    height: 120px;
+    z-index: 100;
+    padding: 2%;
+    margin-top: 5%;
+    border: solid 1px #000000;
+    border-radius: 25px;
+    font-family: 'Black Ops One', sans-serif;
+    color: rgb(201, 10, 10);
+    background-color: #646464;
+    font-size: 15px;
+    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
+    opacity: 0;
+    transition: 2s;
+}
+
+.counter.open {
+    opacity: 1;
+    transition: 2s;    
+}
+
 .play-again {
     z-index: -100;
     border: solid 1px #000000;
     height: 80px;
     width: 150px;
     margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 25px;
     font-family: 'Black Ops One', sans-serif;
     color: rgb(201, 10, 10);
@@ -193,32 +238,6 @@ footer {
     opacity: 1;
     cursor: pointer;
     z-index: 100;
-}
-
-.records {
-    z-index: -100;
-    border: solid 1px #000000;
-    height: 100px;
-    width: 250px;
-    margin-right: 12%;
-    border-radius: 25px;
-    font-family: 'Black Ops One', sans-serif;
-    color: rgb(201, 10, 10);
-    -webkit-text-stroke: 1px  #000000;
-    background-color: #646464;
-    font-size: 40px;
-    box-shadow: inset 3px 3px 3px 3px rgb(177, 177, 177), 3px 3px 3px 3px rgba(66, 66, 66, 0.5);
-    cursor: default;
-    opacity: 0;
-    transition: 2s;
-    position: absolute;
-}
-
-.records.open {
-    opacity: 1;
-    cursor: pointer;
-    z-index: 100;
-    
 }
 
 .button {
@@ -270,14 +289,15 @@ footer {
 .another-buttons-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
     right: -200px;
     width: 100%;
     min-width: 250px;
     height: 100%;
     z-index: -100;
     position: absolute;
+    padding-left: 10%;
     
 }
 
